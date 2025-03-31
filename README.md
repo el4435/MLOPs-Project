@@ -1,114 +1,127 @@
-# MLOPs-Project
-**Event-Based Sentiment Monitoring System**
+Event-Based Sentiment Monitoring System
+=======================================
 
-We propose a machine learning system that enables real-time monitoring of public sentiment in response to specific events (e.g., product launches, political announcements, financial reports). In many organizations today, understanding public reaction relies on manual review of social media and news, often lacking scalability, timeliness, and quantifiable metrics.
+We propose a machine learning system that enables real-time monitoring of public sentiment in response to specific events (e.g., product launches, policy decisions, earnings calls). Traditionally, PR and analytics teams manually track social media and news for sentiment analysis, leading to delays and limited scalability.
 
-Our system addresses this by automatically ingesting online content from Twitter and news outlets based on tracked events, classifying each message's sentiment using a fine-tuned language model, and visualizing sentiment trends in real time.
+Our system automates this process by:
+- Ingesting tweets and news articles related to specified events via APIs.
+- Classifying the sentiment of each item using a fine-tuned transformer model.
+- Aggregating and visualizing sentiment trends on a live dashboard.
 
-This allows teams (e.g., PR, marketing, policy analysts) to:
-- Detect spikes in negative sentiment and mitigate crises
-- Assess public reception of announcements or campaigns
-- Compare emotional impact across events or geographies
+Value Proposition
+-----------------
+This enables faster, more actionable insights for PR, marketing, and policy teams:
+- Identify and respond to spikes in negative sentiment in near real-time.
+- Evaluate public perception of announcements, compare reactions across demographics or regions.
+- Monitor ongoing events or campaigns with quantifiable metrics.
 
-We will measure success with:
-- Sentiment classification accuracy
-- System latency from ingestion to dashboard update
-- Time-to-insight for analysts compared to manual methods
+Baseline Comparison (non-ML status quo): Manual search and review of social media/news by humans.
 
----
+Business Metrics:
+- Sentiment classification F1 score (≥ 85%)
+- System latency from ingestion to dashboard update (≤ 10 seconds)
+- Analyst "time to insight" vs. manual workflow (≥ 3x speedup)
 
-### Contributors
+Contributors
+------------
+| Name         | Responsible for                                                  | Link to their commits in this repo |
+|--------------|------------------------------------------------------------------|------------------------------------|
+| All Members  | System design, integration, DevOps and CI/CD pipeline (Unit 3)   |                                    |
+| Imani Gomez  | Model training, experiment tracking (Units 4 & 5)                |                                    |
+| Asrita Bobba | Model serving, system and model monitoring (Units 6 & 7)         |                                    |
+| Erxi Liu     | Data pipelines (Unit 8)       |                                  |
 
-| Name          | Responsible for                                           | Link to their commits in this repo |
-|---------------|-----------------------------------------------------------|------------------------------------|
-| All team members | Project design, event tracking logic, integration         |                                    |
-| Imani Gomez   | Model training and experiment tracking (Units 4 & 5)       |                                    |
-| Asrita Bobba  | Model serving and monitoring (Units 6 & 7)                 |                                    |
-| Erxi Liu      | Data pipeline (Unit 8) and DevOps / continuous pipeline (Unit 3) |                              |
+System Diagram
+--------------
+System Flow:
 
----
+    [User Input: Events]
+            ↓
+    [Twitter Stream] ←→ [NewsAPI]
+            ↓
+    [Preprocessing Pipeline (ETL)]
+            ↓
+    [Sentiment Model API (FastAPI)]
+            ↓
+    [Real-Time Dashboard (Grafana/Streamlit)]
+            ↕
+    [Monitoring & Logging]
+            ↕
+    [MLflow Tracking / Feedback Loop]
 
-### System diagram
+All components containerized and orchestrated via CI/CD on Chameleon Cloud.
 
-_(To be added – a flowchart showing: Event Input → Twitter/News Ingestion → Sentiment Classifier API → Dashboard & Feedback Loop. A PNG or draw.io diagram should be placed here before final submission.)_
+Summary of Outside Materials
+----------------------------
+| Name              | How it was created                                                | Conditions of use                     |
+|-------------------|-------------------------------------------------------------------|---------------------------------------|
+| Sentiment140      | Labeled using emoticons on 1.6M tweets (Go et al. 2009)           | Open for academic/research use        |
+| TweetEval         | HuggingFace benchmark for Twitter-specific tasks                 | Research license                      |
+| Twitter API v2    | Live streaming and search endpoints, based on hashtags/keywords   | Requires dev key, TOS applies         |
+| NewsAPI           | Aggregates news articles from major publishers via REST API       | Free tier: dev use only               |
+| BERT-base/RoBERTa | Pretrained transformer models from HuggingFace                    | Apache/MIT licenses, research-friendly|
 
----
+Infrastructure Requirements
+---------------------------
+| Requirement       | Quantity / Timeline                         | Justification                                          |
+|-------------------|---------------------------------------------|--------------------------------------------------------|
+| m1.medium VMs     | 3 total, full duration                      | Hosts ingestion, dashboard, model API, MLflow          |
+| gpu_a100          | 4-hour block, 2–3 times/week                | Required for fine-tuning transformer models            |
+| Floating IPs      | 1 persistent, 1 temporary                   | Public access to dashboard and API                     |
+| Persistent Volume | 100GB (throughout)                          | Storage for ingested data, model artifacts, logs       |
+| Ray Cluster       | On-demand, on GPUs                          | Schedule HPO and training via Ray Tune/Train           |
 
-### Summary of outside materials
+Detailed Design Plan
+--------------------
 
-| Name           | How it was created                                                                 | Conditions of use                 |
-|----------------|--------------------------------------------------------------------------------------|-----------------------------------|
-| Sentiment140   | 1.6 million tweets labeled via emoticons, preprocessed for ML tasks                | Open use for academic purposes    |
-| TweetEval      | Benchmark collection of tweet classification tasks including sentiment             | HuggingFace, research license     |
-| Twitter API v2 | Provides real-time streaming and historical tweets based on keywords/hashtags      | Requires developer key, TOS apply |
-| NewsAPI        | Aggregates global headlines from major sources, queried by keyword                 | Free for non-commercial use       |
-| BERT-base (or RoBERTa) | Pre-trained transformer models for general language understanding     | Open source (Apache/MIT licenses) |
+Model Training & Infrastructure (Imani – Units 4 & 5)
+-----------------------------------------------------
+- Strategy: Fine-tune RoBERTa-base on Sentiment140 and TweetEval using PyTorch.
+- Infrastructure: Train models on A100 GPUs using Ray + HuggingFace Transformers.
+- Experiment Tracking: MLflow hosted on Chameleon will log hyperparameters, metrics, artifacts.
+- Unit 4 Compliance: Re-training pipeline triggered automatically with new labeled data.
+- Unit 5 Compliance: Training jobs submitted to Ray cluster with experiment tracking via MLflow.
 
----
+Model Serving & Monitoring (Asrita – Units 6 & 7)
+-------------------------------------------------
+- Serving: Containerized FastAPI endpoint for online and batch inference.
+- Optimizations: Apply ONNX conversion + quantization to reduce inference latency.
+- Deployment: Use both GPU and CPU serving for performance comparison.
+- Monitoring:
+  - Offline eval on standard + edge-case slices.
+  - Load tests in staging (with Locust).
+  - Canary testing with simulated traffic.
+  - Feedback loop with flagged examples for retraining.
 
-### Summary of infrastructure requirements
+Difficulty Point:
+Compare GPU-based vs. CPU-based vs. quantized inference backends.
 
-| Requirement     | How many/when                                      | Justification                         |
-|-----------------|----------------------------------------------------|---------------------------------------|
-| `m1.medium` VMs | 3 total – used throughout project lifecycle        | Hosting ingestion pipeline, dashboard, MLflow |
-| `gpu_a100`      | 4-hour blocks 2–3 times/week                       | Model training and tuning experiments |
-| Floating IPs    | 1 persistent, 1 dynamic                            | Expose model API and dashboard        |
-| Persistent volume | ~100GB attached storage                         | Store models, logs, ingestion cache   |
+Data Pipeline (Erxi – Unit 8)
+-----------------------------
+- Offline ETL:
+  - Ingest data using Twitter API (search endpoint) and NewsAPI.
+  - Filter by keywords, remove duplicates, clean and store to mounted persistent volume.
+- Online Stream:
+  - Simulated stream using tweet/news replay scripts.
+  - Real-time processing and classification, push to dashboard and logs.
+- Storage: Preprocessed data, raw sources, predictions saved in structured format for re-training.
 
----
+Difficulty Point:
+Build an interactive sentiment dashboard (Grafana or Streamlit + Redis + WebSocket backend).
 
-### Detailed design plan
+Continuous X / DevOps (All group members – Unit 3)
+-------------------------------------
+- IaC: Use Terraform and Ansible to provision infrastructure and attach persistent volumes.
+- CI/CD: GitHub Actions + Argo Workflows trigger the full training → testing → deployment pipeline.
+- Environments: Deploy to staging → canary → production via Helm + ArgoCD.
+- Testing: Unit tests, load tests, offline evaluation all automated.
+- Cloud-Native: Everything in containers, immutable infra, microservice architecture.
 
-#### Model training and training platforms (Imani)
+Extra “Difficulty Points” Summary
+---------------------------------
+| Unit   | Extra Difficulty Point                                      |
+|--------|-------------------------------------------------------------|
+| Unit 6 | Multi-backend serving performance comparison                |
+| Unit 8 | Interactive dashboard for streaming sentiment visualization |
 
-We will fine-tune a BERT-based transformer model using the Sentiment140 and TweetEval datasets for tweet-level sentiment classification (positive / neutral / negative). Training will be performed on GPU instances using PyTorch and HuggingFace. Model performance (accuracy, F1) will be tracked in MLflow hosted on Chameleon cloud.  
-Experiments will be submitted via Ray for scheduling and load balancing.
-
-**Difficulty Point**:  
-We will use **Ray Tune** for hyperparameter optimization with advanced schedulers (e.g., ASHA, PBT).
-
----
-
-#### Model serving and monitoring platforms (Asrita)
-
-The fine-tuned model will be wrapped in a FastAPI service and containerized for cloud deployment. The API will support batch and online inference for ingestion pipelines and for live dashboard visualization. We will test and report inference latency and throughput.
-
-Monitoring will include:
-- Offline evaluation after each training
-- Online monitoring of traffic, latency, drift
-- Feedback loop: samples from production flagged for retraining
-
-**Difficulty Point**:  
-We will deploy and compare **multiple serving backends** (GPU-based and CPU-optimized), tracking latency/cost tradeoffs.
-
----
-
-#### Data pipeline (Erxi)
-
-We will implement two pipelines:
-
-1. **Offline pipeline**: Use Twitter Search API and NewsAPI to periodically ingest data related to specified events (e.g. "Apple Vision Pro", "#budget2025"). Apply preprocessing, deduplication, and save to persistent volume.
-
-2. **Streaming pipeline**: Simulate real-time tweets/news using pre-collected data or the Twitter stream API. Clean, route to classifier API, and log prediction results.
-
-All pipeline code and configurations will be managed via version control and integrated into the CI/CD flow.
-
-**Difficulty Point**:  
-We will implement an interactive streaming sentiment **dashboard** using Streamlit or Grafana, updated in real time.
-
----
-
-#### Continuous X (Erxi)
-
-We will adopt full DevOps best practices:
-- Infrastructure-as-code: Use Terraform and Ansible to provision services on Chameleon.
-- CI/CD: A GitHub Actions or Argo Workflow pipeline will trigger:
-  - Data ingestion (offline)
-  - Model training + evaluation
-  - Container build + deployment
-  - Testing in staging → canary → production
-- Cloud-native: All services will be containerized and independently deployable.
-
-This approach enables traceability, reproducibility, and automated iteration across the system.
-
----
+Date: 2025-03-31
