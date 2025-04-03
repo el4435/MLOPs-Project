@@ -1,26 +1,33 @@
-Event-Based Sentiment Monitoring System
+Player Pulse: Event-Based Sentiment Monitoring System for Athlete Endorsements
 =======================================
 
-We propose a machine learning system that enables real-time monitoring of public sentiment in response to specific events (e.g., product launches, policy decisions, earnings calls). Traditionally, PR and analytics teams manually track social media and news for sentiment analysis, leading to delays and limited scalability.
+We propose a machine learning system that enables real-time monitoring of public sentiment in response to specific events (e.g., player performances, controversies, awards). Traditionally, brand marketing and sponsorship teams rely on manual or delayed reports to assess a player's reputation, making endorsement decisions slow or risky.
+
+Our client is a sports sponsor company (e.g., Nike, Red Bull, Adidas) that invests in athlete endorsements. The goal is to help sponsors evaluate how athletes are being perceived publicly on social media before and after major events—by displaying traits, trending descriptors, and sentiment scores derived from Twitter data.
 
 Our system automates this process by:
-- Ingesting tweets and news articles related to specified events via APIs.
-- Classifying the sentiment of each item using a fine-tuned transformer model.
-- Aggregating and visualizing sentiment trends on a live dashboard.
+
+Ingesting tweets related to specific athletes and events via APIs.
+Classifying the sentiment of each tweet using a fine-tuned transformer model.
+Aggregating, analyzing, and visualizing sentiment trends alongside performance stats on a live dashboard.
 
 Value Proposition
 -----------------
-This enables faster, more actionable insights for PR, marketing, and policy teams:
-- Identify and respond to spikes in negative sentiment in near real-time.
-- Evaluate public perception of announcements, compare reactions across demographics or regions.
-- Monitor ongoing events or campaigns with quantifiable metrics.
+Value Proposition
+This enables faster and more confident decision-making for sponsorship and PR teams:
 
-Baseline Comparison (non-ML status quo): Manual search and review of social media/news by humans.
+Identify and respond to spikes in negative sentiment in near real-time.
+Compare athlete perceptions across geographies or time periods (e.g., pre/post-match).
+Understand public attribution of traits like “clutch,” “overrated,” “team player,” etc.
+Quantify brand risk and media value before signing endorsement deals.
+Baseline Comparison: Manual PR scanning, static reports, post-hoc surveys.
 
 Business Metrics:
-- Sentiment classification F1 score (≥ 85%)
-- System latency from ingestion to dashboard update (≤ 10 seconds)
-- Analyst "time to insight" vs. manual workflow (≥ 3x speedup)
+
+Sentiment classification F1 score (≥ 85%)
+Dashboard update latency (≤ 10 seconds)
+Sponsorship team time-to-insight (≥ 3x faster)
+
 
 Contributors
 ------------
