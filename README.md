@@ -1,32 +1,23 @@
-Player Pulse: Event-Based Sentiment Monitoring System for Athlete Endorsements
+Taxi Driver Event Time and Location Prediction
 =======================================
 
-We propose a machine learning system that enables real-time monitoring of public sentiment in response to specific events (e.g., player performances, controversies, awards). Traditionally, brand marketing and sponsorship teams rely on manual or delayed reports to assess a player's reputation, making endorsement decisions slow or risky.
-
-Our client is a sports sponsor company (e.g., Nike, Red Bull, Adidas) that invests in athlete endorsements. The goal is to help sponsors evaluate how athletes are being perceived publicly on social media before and after major events—by displaying traits, trending descriptors, and sentiment scores derived from Twitter data.
+This machine learning system will predict when the best taxi pick times and locations are based on future events. This will help drivers to know when and where the best times are and helps them to maximize revenue on a given date. 
 
 Our system automates this process by:
 
-Ingesting tweets related to specific athletes and events via APIs.
-Classifying the sentiment of each tweet using a fine-tuned transformer model.
-Aggregating, analyzing, and visualizing sentiment trends alongside performance stats on a live dashboard.
+Ingesting historical trip data, including time, pickup location, drop off location, fare amount, etc. 
+Ingesting event data including event start and end times, event location, event side street, event type. 
+Analyzing correlations between past events and ride demand
+Visualizing predictions of optimal pickup zones and times of a high ride requests. 
 
 Value Proposition
 -----------------
 Value Proposition
-This enables faster and more confident decision-making for sponsorship and PR teams:
-
-Identify and respond to spikes in negative sentiment in near real-time.
-Compare athlete perceptions across geographies or time periods (e.g., pre/post-match).
-Understand public attribution of traits like “clutch,” “overrated,” “team player,” etc.
-Quantify brand risk and media value before signing endorsement deals.
-Baseline Comparison: Manual PR scanning, static reports, post-hoc surveys.
+Most drivers are freelance. This system gives them the opportunity to better plan their driving schedules and routes, increasing efficiency and income. 
 
 Business Metrics:
-
-Sentiment classification F1 score (≥ 85%)
-Dashboard update latency (≤ 10 seconds)
-Sponsorship team time-to-insight (≥ 3x faster)
+- Increase driver hourly revenue
+- Reduce time in between rides
 
 
 Contributors
@@ -42,15 +33,13 @@ System Diagram
 --------------
 System Flow:
 
-    [User Input: Events]
-            ↓
-    [Twitter Stream] ←→ [NewsAPI]
+    [User Input: Event Calendar, Taxi Trip History]
             ↓
     [Preprocessing Pipeline (ETL)]
             ↓
-    [Sentiment Model API (FastAPI)]
+    [Demand Forecasting Model API (FastAPI)]
             ↓
-    [Real-Time Dashboard (Grafana/Streamlit)]
+    [Visualization Dashboard (Grafana/Streamlit)]
             ↕
     [Monitoring & Logging]
             ↕
@@ -62,11 +51,9 @@ Summary of Outside Materials
 ----------------------------
 | Name              | How it was created                                                | Conditions of use                     |
 |-------------------|-------------------------------------------------------------------|---------------------------------------|
-| Sentiment140      | Labeled using emoticons on 1.6M tweets (Go et al. 2009)           | Open for academic/research use        |
-| TweetEval         | HuggingFace benchmark for Twitter-specific tasks                 | Research license                      |
-| Twitter API v2    | Live streaming and search endpoints, based on hashtags/keywords   | Requires dev key, TOS applies         |
-| NewsAPI           | Aggregates news articles from major publishers via REST API       | Free tier: dev use only               |
-| BERT-base/RoBERTa | Pretrained transformer models from HuggingFace                    | Apache/MIT licenses, research-friendly|
+| NYC Taxi Data     | Open dataset of yellow cabs from the city of New York             | Open data license                     |
+| NYC Events Data   | Open data set of events from the city of New York                 | Open data license                     |
+| OpenStreetMap     | Map and geologication data for venue matching                     | Open License                          |
 
 Infrastructure Requirements
 ---------------------------
@@ -83,52 +70,54 @@ Detailed Design Plan
 
 Model Training & Infrastructure (Imani – Units 4 & 5)
 -----------------------------------------------------
-- Strategy: Fine-tune RoBERTa-base on Sentiment140 and TweetEval using PyTorch.
-- Infrastructure: Train models on A100 GPUs using Ray + HuggingFace Transformers.
-- Experiment Tracking: MLflow hosted on Chameleon will log hyperparameters, metrics, artifacts.
-- Unit 4 Compliance: Re-training pipeline triggered automatically with new labeled data.
-- Unit 5 Compliance: Training jobs submitted to Ray cluster with experiment tracking via MLflow.
+- Strategy: Train demand prediction models using time-series and spatial data (LSTM + XGBoost)
+- Infrastructure: Use Ray on A100s to run model selection and tuning jobs
+- Experiment Tracking: MLflow logs all experiments, including event types, features, and metrics
+- Unit 4 Compliance: Automated retraining pipeline on updated trip and event data
+- Unit 5 Compliance: Scheduled Ray jobs for incremental learning and version tracking
 
 Model Serving & Monitoring (Asrita – Units 6 & 7)
 -------------------------------------------------
-- Serving: Containerized FastAPI endpoint for online and batch inference.
-- Optimizations: Apply ONNX conversion + quantization to reduce inference latency.
-- Deployment: Use both GPU and CPU serving for performance comparison.
+- Serving: FastAPI endpoints deliver real-time predictions (pickup density by hour + location)
+- Optimizations: Prune models and test ONNX for faster inference
+- Deployment: Compare CPU and GPU inference speeds for scalability
 - Monitoring:
-  - Offline eval on standard + edge-case slices.
-  - Load tests in staging (with Locust).
-  - Canary testing with simulated traffic.
-  - Feedback loop with flagged examples for retraining.
+  - Evaluate performance in difference zones and event categories
+  - Load tests API with simulated queries
+  - Canary testing for new model releases
+  - Feedback loopusing taxi location pings to assess prediction accuracy
 
 Difficulty Point:
-Compare GPU-based vs. CPU-based vs. quantized inference backends.
+Evaluate difference time-series models (ARIMA, LSTM, Prophet) under variable event densities
 
 Data Pipeline (Erxi – Unit 8)
 -----------------------------
 - Offline ETL:
-  - Ingest data using Twitter API (search endpoint) and NewsAPI.
-  - Filter by keywords, remove duplicates, clean and store to mounted persistent volume.
+  - Combine trip data with scheduled events
+  - Perform spatial joins using H3 hex bins
+  - Aggregate historical patterns for feature engineering
 - Online Stream:
-  - Simulated stream using tweet/news replay scripts.
-  - Real-time processing and classification, push to dashboard and logs.
-- Storage: Preprocessed data, raw sources, predictions saved in structured format for re-training.
-
+  - Simulated future event impact using past event signatures
+  - Continuously update pickup hotspots on dashboard
+- Storage: Maintain both raw and processed data for retraining and validation
+  
 Difficulty Point:
-Build an interactive sentiment dashboard (Grafana or Streamlit + Redis + WebSocket backend).
+Efficiant spatial joins and indexing of dense urban data with event overlays
 
 Continuous X / DevOps (All group members – Unit 3)
 -------------------------------------
-- IaC: Use Terraform and Ansible to provision infrastructure and attach persistent volumes.
-- CI/CD: GitHub Actions + Argo Workflows trigger the full training → testing → deployment pipeline.
-- Environments: Deploy to staging → canary → production via Helm + ArgoCD.
-- Testing: Unit tests, load tests, offline evaluation all automated.
-- Cloud-Native: Everything in containers, immutable infra, microservice architecture.
+- IaC:Terraform + Ansible provisions and configurations compute and storage resources
+- CI/CD: GitHub Actions + Argo automates ETL -> training -> deployment
+- Environments: Helm + ArgoCD for multistage deployment
+- Testing: Coverage inclused ETL unit tests, model accuracy, load testing of API
+- Cloud-Native: Everything in containers, reproducable pipelines
 
 Extra “Difficulty Points” Summary
 ---------------------------------
 | Unit   | Extra Difficulty Point                                      |
 |--------|-------------------------------------------------------------|
-| Unit 6 | Multi-backend serving performance comparison                |
-| Unit 8 | Interactive dashboard for streaming sentiment visualization |
+| Unit 6 | Model comparision across multiple time-series frameworks    |
+| Unit 8 | Real-time geospatial visualization with live event overlays |
 
-Date: 2025-03-31
+Date: 2025-04-15
+
