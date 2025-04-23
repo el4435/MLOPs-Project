@@ -1,0 +1,50 @@
+version: "3.9"
+name: taxi-only-etl
+
+volumes:
+  taxi_data:
+
+services:
+  extract-taxi:
+    image: python:3.11
+    volumes:
+      - ./download_taxi.py:/data/download_taxi.py
+      - taxi_data:/data/output
+    working_dir: /data
+    command: ["bash", "-c", "python download_taxi.py"]
+
+  process-taxi:
+    build: .
+    volumes:
+      - ./process_taxi.py:/data/process_taxi.py
+      - taxi_data:/data/output
+    working_dir: /data
+    command: ["bash", "-c", "python process_taxi.py"]
+
+  load-data:
+    image: rclone/rclone:latest
+    volumes:
+      - taxi_data:/data
+      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+        if [ -z "$RCLONE_CONTAINER" ]; then
+          echo "ERROR: RCLONE_CONTAINER is not set"
+          exit 1
+        fi
+
+        echo "Cleaning up existing contents of container..."
+        rclone delete chi_tacc:$RCLONE_CONTAINER --rmdirs || true
+
+        echo "Copying data to object store..."
+        rclone copy /data chi_tacc:$RCLONE_CONTAINER \
+          --progress \
+          --transfers=32 \
+          --checkers=16 \
+          --multi-thread-streams=4 \
+          --fast-list
+
+        echo "Listing directories in container after load stage:"
+        rclone lsd chi_tacc:$RCLONE_CONTAINER
