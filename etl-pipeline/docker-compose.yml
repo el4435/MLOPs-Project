@@ -106,3 +106,11 @@ services:
       - event_data:/data/events
     working_dir: /data
     command: ["bash", "-c", "python download_events_test.py"]
+
+  split-datasets:
+    build: .
+    volumes:
+      - ./split_datasets.py:/data/split_datasets.py
+      - taxi_data:/data/output
+    working_dir: /data
+    command: ["bash", "-c", "python split_datasets.py"]
