@@ -1,0 +1,11 @@
+name: train
+services:
+  jupyter:
+    image: quay.io/jupyter/scipy-notebook:latest
+    container_name: jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - /home/cc/serve-system-chi/workspace:/home/jovyan/work # mount workspace
+    #command: >
+    #  bash -c "python3 -m pip install numpy && start-notebook.sh"
