@@ -6,6 +6,6 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - /home/cc/el4435/MLOPs-Project/train/workspace:/home/jovyan/work # mount workspace
+      - /home/cc/MLOPs-Project/train/workspace:/home/jovyan/work # mount workspace
     #command: >
     #  bash -c "python3 -m pip install numpy && start-notebook.sh"
