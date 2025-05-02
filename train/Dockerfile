@@ -1,0 +1,11 @@
+FROM quay.io/jupyter/scipy-notebook:latest
+# Chose notebook from https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook
+
+USER ${NB_UID}
+
+# install package XXXX - replace XXXX
+# RUN pip install --pre --no-cache-dir XXXX && \
+#    fix-permissions "${CONDA_DIR}" && \
+#    fix-permissions "/home/${NB_USER}"
+
+# based on lab example https://github.com/teaching-on-testbeds/mltrain-chi/blob/main/docker/Dockerfile.jupyter-ray
