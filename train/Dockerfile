@@ -3,6 +3,11 @@ FROM quay.io/jupyter/scipy-notebook:latest
 
 USER ${NB_UID}
 
+
+RUN pip install --no-cache-dir pandas && \
+    fix-permissions "${CONDA_DIR}" && \
+    fix-permissions "/home/${NB_USER}"
+
 # install package XXXX - replace XXXX
 # RUN pip install --pre --no-cache-dir XXXX && \
 #    fix-permissions "${CONDA_DIR}" && \
