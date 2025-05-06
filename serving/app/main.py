@@ -31,6 +31,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from app.model_utils import load_model
 import numpy as np
+import pandas as pd
+PREDICTIONS = pd.read_csv("daily_predictions.csv")
 
 app = FastAPI()
 model = load_model()
