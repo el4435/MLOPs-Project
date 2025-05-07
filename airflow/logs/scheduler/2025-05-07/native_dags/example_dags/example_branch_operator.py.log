@@ -1,0 +1,80 @@
+[2025-05-06T23:36:08.344-0400] {processor.py:161} INFO - Started process (PID=91855) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:36:08.345-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-05-06T23:36:08.345-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:36:08.345-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:36:08.373-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:36:08.373-0400] {dagbag.py:348} ERROR - Failed to import: /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-05-06T23:36:08.373-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:36:08.400-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds
+[2025-05-06T23:37:49.668-0400] {processor.py:161} INFO - Started process (PID=91968) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:37:49.669-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-05-06T23:37:49.669-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:49.669-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:37:49.701-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:49.700-0400] {dagbag.py:348} ERROR - Failed to import: /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-05-06T23:37:49.701-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:37:49.728-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2025-05-06T23:39:26.574-0400] {processor.py:161} INFO - Started process (PID=92047) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:39:26.576-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-05-06T23:39:26.576-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:39:26.576-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:39:26.605-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:39:26.604-0400] {dagbag.py:348} ERROR - Failed to import: /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-05-06T23:39:26.605-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:39:26.630-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.057 seconds
+[2025-05-06T23:40:59.688-0400] {processor.py:161} INFO - Started process (PID=92191) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:40:59.689-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-05-06T23:40:59.689-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:40:59.689-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:40:59.718-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:40:59.718-0400] {dagbag.py:348} ERROR - Failed to import: /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2025-05-06T23:40:59.718-0400] {processor.py:842} WARNING - No viable dags retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-06T23:40:59.745-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.058 seconds

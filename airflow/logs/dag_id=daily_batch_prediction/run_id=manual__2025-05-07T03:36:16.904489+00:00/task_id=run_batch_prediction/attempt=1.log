@@ -1,0 +1,34 @@
+[2025-05-06T23:36:18.402-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_batch_prediction.run_batch_prediction manual__2025-05-07T03:36:16.904489+00:00 [queued]>
+[2025-05-06T23:36:18.404-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_batch_prediction.run_batch_prediction manual__2025-05-07T03:36:16.904489+00:00 [queued]>
+[2025-05-06T23:36:18.404-0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-06T23:36:18.408-0400] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_batch_prediction> on 2025-05-07 03:36:16.904489+00:00
+[2025-05-06T23:36:18.410-0400] {standard_task_runner.py:60} INFO - Started process 91867 to run task
+[2025-05-06T23:36:18.413-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'daily_batch_prediction', 'run_batch_prediction', 'manual__2025-05-07T03:36:16.904489+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/batch_prediction.py', '--cfg-path', '/var/folders/2b/16n82n653zq3q6p6434x8rbr0000gn/T/tmprvzzkjs1']
+[2025-05-06T23:36:18.414-0400] {standard_task_runner.py:88} INFO - Job 5: Subtask run_batch_prediction
+[2025-05-06T23:36:18.426-0400] {task_command.py:423} INFO - Running <TaskInstance: daily_batch_prediction.run_batch_prediction manual__2025-05-07T03:36:16.904489+00:00 [running]> on host mac.mynetworksettings.com
+[2025-05-06T23:36:18.441-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='daily_batch_prediction' AIRFLOW_CTX_TASK_ID='run_batch_prediction' AIRFLOW_CTX_EXECUTION_DATE='2025-05-07T03:36:16.904489+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-07T03:36:16.904489+00:00'
+[2025-05-06T23:36:18.445-0400] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py", line 14, in run_batch_predictions
+    predictions = pd.read_csv(predictions_path)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow310/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/serving/daily_predictions.csv'
+[2025-05-06T23:36:18.449-0400] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=daily_batch_prediction, task_id=run_batch_prediction, execution_date=20250507T033616, start_date=20250507T033618, end_date=20250507T033618
+[2025-05-06T23:36:18.452-0400] {standard_task_runner.py:107} ERROR - Failed to execute job 5 for task run_batch_prediction ([Errno 2] No such file or directory: '/Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/serving/daily_predictions.csv'; 91867)
+[2025-05-06T23:36:18.468-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-06T23:36:18.472-0400] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

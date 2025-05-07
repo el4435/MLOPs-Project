@@ -1,0 +1,630 @@
+[2025-05-06T23:34:50.037-0400] {processor.py:161} INFO - Started process (PID=91777) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:34:50.038-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:34:50.038-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:34:50.038-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:34:50.184-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:34:50.263-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:34:50.263-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:34:50.268-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:34:50.268-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-06 00:00:00+00:00, run_after=2025-05-07 00:00:00+00:00
+[2025-05-06T23:34:50.274-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.237 seconds
+[2025-05-06T23:36:17.138-0400] {processor.py:161} INFO - Started process (PID=91865) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:36:17.138-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:36:17.139-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:36:17.139-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:36:17.320-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:36:17.352-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:36:17.352-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:36:17.385-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:36:17.385-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:36:17.391-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.253 seconds
+[2025-05-06T23:37:09.848-0400] {processor.py:161} INFO - Started process (PID=91929) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:37:09.848-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:37:09.848-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:09.848-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:37:09.992-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:37:10.020-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:10.020-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:37:10.049-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:10.049-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:37:10.054-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.207 seconds
+[2025-05-06T23:37:56.871-0400] {processor.py:161} INFO - Started process (PID=91976) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:37:56.871-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:37:56.872-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:56.871-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:37:57.102-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:37:57.130-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:57.130-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:37:57.159-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:37:57.159-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:37:57.165-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.295 seconds
+[2025-05-06T23:38:46.188-0400] {processor.py:161} INFO - Started process (PID=92016) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:38:46.189-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:38:46.189-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:38:46.189-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:38:46.416-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:38:46.446-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:38:46.446-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:38:46.477-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:38:46.477-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:38:46.483-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.295 seconds
+[2025-05-06T23:39:33.955-0400] {processor.py:161} INFO - Started process (PID=92052) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:39:33.956-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:39:33.957-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:39:33.956-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:39:34.173-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:39:34.201-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:39:34.201-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:39:34.231-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:39:34.231-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:39:34.236-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.281 seconds
+[2025-05-06T23:40:19.841-0400] {processor.py:161} INFO - Started process (PID=92097) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:40:19.842-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:40:19.843-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:40:19.843-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:40:19.981-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:40:20.009-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:40:20.009-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:40:20.039-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:40:20.039-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:40:20.045-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.204 seconds
+[2025-05-06T23:41:08.205-0400] {processor.py:161} INFO - Started process (PID=92198) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:41:08.206-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:41:08.207-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:41:08.207-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:41:08.434-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:41:08.463-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:41:08.463-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:41:08.492-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:41:08.492-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:41:08.497-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.292 seconds
+[2025-05-06T23:42:01.341-0400] {processor.py:161} INFO - Started process (PID=92250) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:42:01.341-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:42:01.341-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:42:01.341-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:42:01.498-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:42:01.527-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:42:01.527-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:42:01.560-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:42:01.560-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:42:01.565-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.225 seconds
+[2025-05-06T23:43:05.083-0400] {processor.py:161} INFO - Started process (PID=92315) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:43:05.083-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:43:05.083-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:43:05.083-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:43:05.225-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:43:05.254-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:43:05.254-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:43:05.283-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:43:05.283-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:43:05.289-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.207 seconds
+[2025-05-06T23:43:36.773-0400] {processor.py:161} INFO - Started process (PID=92322) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:43:36.773-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:43:36.773-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:43:36.773-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:43:36.914-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:43:36.942-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:43:36.941-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:43:36.970-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:43:36.970-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:43:36.976-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.203 seconds
+[2025-05-06T23:44:08.016-0400] {processor.py:161} INFO - Started process (PID=92343) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:44:08.016-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:44:08.017-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:44:08.017-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:44:08.153-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:44:08.182-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:44:08.181-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:44:08.209-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:44:08.209-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:44:08.215-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.199 seconds
+[2025-05-06T23:44:39.255-0400] {processor.py:161} INFO - Started process (PID=92358) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:44:39.255-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:44:39.255-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:44:39.255-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:44:39.387-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:44:39.415-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:44:39.414-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:44:39.443-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:44:39.443-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:44:39.448-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.194 seconds
+[2025-05-06T23:45:10.362-0400] {processor.py:161} INFO - Started process (PID=92373) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:45:10.362-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:45:10.362-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:45:10.362-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:45:10.492-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:45:10.520-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:45:10.520-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:45:10.547-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:45:10.547-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:45:10.553-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.191 seconds
+[2025-05-06T23:45:41.425-0400] {processor.py:161} INFO - Started process (PID=92386) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:45:41.425-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:45:41.425-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:45:41.425-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:45:41.565-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:45:41.594-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:45:41.594-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:45:41.624-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:45:41.624-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:45:41.630-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.206 seconds
+[2025-05-06T23:46:12.538-0400] {processor.py:161} INFO - Started process (PID=92390) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:46:12.539-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:46:12.539-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:46:12.539-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:46:12.763-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:46:12.794-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:46:12.794-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:46:12.823-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:46:12.823-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:46:12.829-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.291 seconds
+[2025-05-06T23:46:43.680-0400] {processor.py:161} INFO - Started process (PID=92402) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:46:43.680-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:46:43.681-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:46:43.681-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:46:43.837-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:46:43.869-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:46:43.869-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:46:43.903-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:46:43.903-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:46:43.909-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.230 seconds
+[2025-05-06T23:47:14.786-0400] {processor.py:161} INFO - Started process (PID=92411) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:47:14.786-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:47:14.787-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:47:14.787-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:47:14.966-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:47:15.001-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:47:15.001-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:47:15.031-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:47:15.031-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:47:15.037-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.251 seconds
+[2025-05-06T23:47:45.778-0400] {processor.py:161} INFO - Started process (PID=92415) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:47:45.778-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:47:45.778-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:47:45.778-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:47:45.951-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:47:45.985-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:47:45.985-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:47:46.020-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:47:46.020-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:47:46.026-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.249 seconds
+[2025-05-06T23:48:16.753-0400] {processor.py:161} INFO - Started process (PID=92420) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:48:16.754-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:48:16.754-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:48:16.754-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:48:16.919-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:48:16.952-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:48:16.951-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:48:16.981-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:48:16.981-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:48:16.987-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.234 seconds
+[2025-05-06T23:48:47.738-0400] {processor.py:161} INFO - Started process (PID=92432) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:48:47.739-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:48:47.739-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:48:47.739-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:48:47.886-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:48:47.916-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:48:47.915-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:48:47.944-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:48:47.944-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:48:47.950-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.212 seconds
+[2025-05-06T23:49:18.675-0400] {processor.py:161} INFO - Started process (PID=92439) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:49:18.675-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:49:18.676-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:49:18.676-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:49:18.817-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:49:18.846-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:49:18.846-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:49:18.878-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:49:18.878-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:49:18.884-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.210 seconds
+[2025-05-06T23:49:49.774-0400] {processor.py:161} INFO - Started process (PID=92454) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:49:49.775-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:49:49.775-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:49:49.775-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:49:50.007-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:49:50.039-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:49:50.039-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:49:50.068-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:49:50.068-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:49:50.074-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.300 seconds
+[2025-05-06T23:50:20.911-0400] {processor.py:161} INFO - Started process (PID=92473) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:50:20.913-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:50:20.913-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:50:20.913-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:50:21.154-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:50:21.186-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:50:21.186-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:50:21.217-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:50:21.217-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:50:21.223-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.312 seconds
+[2025-05-06T23:50:51.949-0400] {processor.py:161} INFO - Started process (PID=92477) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:50:51.950-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:50:51.950-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:50:51.950-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:50:52.093-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:50:52.123-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:50:52.123-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:50:52.156-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:50:52.156-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:50:52.162-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.213 seconds
+[2025-05-06T23:51:23.064-0400] {processor.py:161} INFO - Started process (PID=92480) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:51:23.065-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:51:23.066-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:51:23.065-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:51:23.341-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:51:23.379-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:51:23.379-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:51:23.424-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:51:23.424-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:51:23.431-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.367 seconds
+[2025-05-06T23:51:54.350-0400] {processor.py:161} INFO - Started process (PID=92483) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:51:54.351-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:51:54.351-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:51:54.351-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:51:54.573-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:51:54.605-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:51:54.604-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:51:54.633-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:51:54.633-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:51:54.639-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.289 seconds
+[2025-05-06T23:52:25.457-0400] {processor.py:161} INFO - Started process (PID=92488) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:52:25.458-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:52:25.458-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:52:25.458-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:52:25.686-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:52:25.717-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:52:25.717-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:52:25.745-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:52:25.745-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:52:25.751-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.294 seconds
+[2025-05-06T23:52:56.505-0400] {processor.py:161} INFO - Started process (PID=92504) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:52:56.506-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:52:56.507-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:52:56.506-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:52:56.737-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:52:56.768-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:52:56.768-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:52:56.799-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:52:56.799-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:52:56.805-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.300 seconds
+[2025-05-06T23:53:27.500-0400] {processor.py:161} INFO - Started process (PID=92509) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:53:27.501-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:53:27.501-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:53:27.501-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:53:27.657-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:53:27.687-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:53:27.687-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:53:27.718-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:53:27.718-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:53:27.724-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.224 seconds
+[2025-05-06T23:53:58.480-0400] {processor.py:161} INFO - Started process (PID=92512) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:53:58.481-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:53:58.481-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:53:58.481-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:53:58.636-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:53:58.667-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:53:58.667-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:53:58.703-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:53:58.703-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:53:58.709-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.229 seconds
+[2025-05-06T23:54:29.428-0400] {processor.py:161} INFO - Started process (PID=92516) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:54:29.429-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:54:29.429-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:54:29.429-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:54:29.623-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:54:29.656-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:54:29.656-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:54:29.685-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:54:29.685-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:54:29.690-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.262 seconds
+[2025-05-06T23:55:00.353-0400] {processor.py:161} INFO - Started process (PID=92519) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:55:00.354-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:55:00.354-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:55:00.354-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:55:00.488-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:55:00.516-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:55:00.516-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:55:00.544-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:55:00.544-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:55:00.550-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.197 seconds
+[2025-05-06T23:55:31.195-0400] {processor.py:161} INFO - Started process (PID=92522) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:55:31.195-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:55:31.195-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:55:31.195-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:55:31.328-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:55:31.356-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:55:31.356-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:55:31.384-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:55:31.384-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:55:31.389-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.195 seconds
+[2025-05-06T23:56:02.196-0400] {processor.py:161} INFO - Started process (PID=92538) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:56:02.197-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:56:02.198-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:56:02.197-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:56:02.418-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:56:02.449-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:56:02.449-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:56:02.477-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:56:02.477-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:56:02.482-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.286 seconds
+[2025-05-06T23:56:33.362-0400] {processor.py:161} INFO - Started process (PID=92562) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:56:33.362-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:56:33.363-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:56:33.363-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:56:33.572-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:56:33.608-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:56:33.608-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:56:33.645-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:56:33.645-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:56:33.651-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.289 seconds
+[2025-05-06T23:57:04.376-0400] {processor.py:161} INFO - Started process (PID=92566) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:57:04.376-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:57:04.377-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:57:04.377-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:57:04.516-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:57:04.544-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:57:04.543-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:57:04.583-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:57:04.583-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:57:04.590-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.214 seconds
+[2025-05-06T23:57:35.310-0400] {processor.py:161} INFO - Started process (PID=92593) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:57:35.310-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:57:35.311-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:57:35.310-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:57:35.455-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:57:35.484-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:57:35.484-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:57:35.512-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:57:35.512-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:57:35.518-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.209 seconds
+[2025-05-06T23:58:06.190-0400] {processor.py:161} INFO - Started process (PID=92600) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:58:06.190-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:58:06.190-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:58:06.190-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:58:06.333-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:58:06.366-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:58:06.365-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:58:06.405-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:58:06.405-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:58:06.411-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.222 seconds
+[2025-05-06T23:58:37.088-0400] {processor.py:161} INFO - Started process (PID=92603) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:58:37.088-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:58:37.089-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:58:37.089-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:58:37.246-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:58:37.279-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:58:37.279-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:58:37.318-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:58:37.318-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:58:37.324-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.236 seconds
+[2025-05-06T23:59:08.022-0400] {processor.py:161} INFO - Started process (PID=92608) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:59:08.022-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:59:08.022-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:59:08.022-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:59:08.177-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:59:08.210-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:59:08.210-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:59:08.244-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:59:08.244-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:59:08.250-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.229 seconds
+[2025-05-06T23:59:39.025-0400] {processor.py:161} INFO - Started process (PID=92612) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:59:39.026-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-06T23:59:39.026-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:59:39.026-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:59:39.257-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-06T23:59:39.289-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:59:39.289-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-06T23:59:39.317-0400] {logging_mixin.py:188} INFO - [2025-05-06T23:59:39.317-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-06T23:59:39.323-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.298 seconds
+[2025-05-07T00:00:10.243-0400] {processor.py:161} INFO - Started process (PID=92629) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:00:10.244-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:00:10.244-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:00:10.244-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:00:10.523-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:00:10.558-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:00:10.557-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:00:10.591-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:00:10.591-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:00:10.597-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.355 seconds
+[2025-05-07T00:00:41.295-0400] {processor.py:161} INFO - Started process (PID=92632) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:00:41.295-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:00:41.295-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:00:41.295-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:00:41.488-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:00:41.519-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:00:41.519-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:00:41.548-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:00:41.548-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:00:41.553-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.259 seconds
+[2025-05-07T00:01:12.224-0400] {processor.py:161} INFO - Started process (PID=92652) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:01:12.224-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:01:12.224-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:01:12.224-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:01:12.377-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:01:12.411-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:01:12.411-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:01:12.450-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:01:12.450-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:01:12.456-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.233 seconds
+[2025-05-07T00:01:43.201-0400] {processor.py:161} INFO - Started process (PID=92677) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:01:43.201-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:01:43.201-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:01:43.201-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:01:43.345-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:01:43.374-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:01:43.374-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:01:43.405-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:01:43.404-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:01:43.410-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.210 seconds
+[2025-05-07T00:02:14.085-0400] {processor.py:161} INFO - Started process (PID=92681) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:02:14.086-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:02:14.086-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:02:14.086-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:02:14.225-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:02:14.253-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:02:14.253-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:02:14.282-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:02:14.282-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:02:14.288-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.202 seconds
+[2025-05-07T00:02:44.961-0400] {processor.py:161} INFO - Started process (PID=92695) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:02:44.962-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:02:44.962-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:02:44.962-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:02:45.104-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:02:45.134-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:02:45.134-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:02:45.165-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:02:45.165-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:02:45.170-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.209 seconds
+[2025-05-07T00:03:15.864-0400] {processor.py:161} INFO - Started process (PID=92708) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:03:15.865-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:03:15.865-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:03:15.865-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:03:16.001-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:03:16.030-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:03:16.030-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:03:16.059-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:03:16.059-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:03:16.065-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.201 seconds
+[2025-05-07T00:03:46.740-0400] {processor.py:161} INFO - Started process (PID=92714) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:03:46.740-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:03:46.740-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:03:46.740-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:03:46.877-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:03:46.907-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:03:46.907-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:03:46.935-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:03:46.934-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:03:46.940-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.201 seconds
+[2025-05-07T00:04:17.715-0400] {processor.py:161} INFO - Started process (PID=92717) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:04:17.715-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:04:17.716-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:04:17.715-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:04:17.891-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:04:17.925-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:04:17.925-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:04:17.967-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:04:17.967-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:04:17.976-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.262 seconds
+[2025-05-07T00:04:48.720-0400] {processor.py:161} INFO - Started process (PID=92720) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:04:48.721-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:04:48.721-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:04:48.721-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:04:48.853-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:04:48.881-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:04:48.881-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:04:48.909-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:04:48.909-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:04:48.915-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.195 seconds
+[2025-05-07T00:05:19.605-0400] {processor.py:161} INFO - Started process (PID=92723) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:05:19.606-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:05:19.606-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:05:19.606-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:05:19.743-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:05:19.771-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:05:19.771-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:05:19.799-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:05:19.799-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:05:19.805-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.200 seconds
+[2025-05-07T00:05:50.496-0400] {processor.py:161} INFO - Started process (PID=92726) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:05:50.497-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:05:50.497-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:05:50.497-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:05:50.649-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:05:50.679-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:05:50.679-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:05:50.710-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:05:50.710-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:05:50.716-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.220 seconds
+[2025-05-07T00:06:21.396-0400] {processor.py:161} INFO - Started process (PID=92729) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:06:21.396-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:06:21.396-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:06:21.396-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:06:21.532-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:06:21.560-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:06:21.560-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:06:21.589-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:06:21.588-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:06:21.594-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.199 seconds
+[2025-05-07T00:06:52.253-0400] {processor.py:161} INFO - Started process (PID=92732) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:06:52.253-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:06:52.253-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:06:52.253-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:06:52.390-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:06:52.418-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:06:52.418-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:06:52.446-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:06:52.446-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:06:52.452-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.200 seconds
+[2025-05-07T00:07:23.127-0400] {processor.py:161} INFO - Started process (PID=92735) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:07:23.127-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:07:23.128-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:07:23.128-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:07:23.269-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:07:23.298-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:07:23.297-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:07:23.326-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:07:23.326-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:07:23.331-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.205 seconds
+[2025-05-07T00:07:54.030-0400] {processor.py:161} INFO - Started process (PID=92738) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:07:54.030-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:07:54.030-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:07:54.030-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:07:54.174-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:07:54.204-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:07:54.204-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:07:54.233-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:07:54.233-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:07:54.239-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.210 seconds
+[2025-05-07T00:08:24.918-0400] {processor.py:161} INFO - Started process (PID=92744) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:08:24.918-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:08:24.919-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:08:24.919-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:08:25.083-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:08:25.114-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:08:25.114-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:08:25.149-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:08:25.149-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:08:25.155-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.237 seconds
+[2025-05-07T00:08:55.892-0400] {processor.py:161} INFO - Started process (PID=92750) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:08:55.892-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:08:55.892-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:08:55.892-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:08:56.048-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:08:56.077-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:08:56.077-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:08:56.111-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:08:56.111-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:08:56.117-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.225 seconds
+[2025-05-07T00:09:26.857-0400] {processor.py:161} INFO - Started process (PID=92754) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:09:26.858-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:09:26.858-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:09:26.858-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:09:27.010-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:09:27.041-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:09:27.041-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:09:27.077-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:09:27.077-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:09:27.083-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.227 seconds
+[2025-05-07T00:09:57.788-0400] {processor.py:161} INFO - Started process (PID=92757) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:09:57.789-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:09:57.789-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:09:57.789-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:09:57.934-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:09:57.962-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:09:57.962-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:09:57.993-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:09:57.993-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:09:57.999-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.211 seconds
+[2025-05-07T00:10:28.693-0400] {processor.py:161} INFO - Started process (PID=92760) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:10:28.694-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:10:28.694-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:10:28.694-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:10:28.843-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:10:28.871-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:10:28.871-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:10:28.905-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:10:28.905-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:10:28.911-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.218 seconds
+[2025-05-07T00:10:59.633-0400] {processor.py:161} INFO - Started process (PID=92764) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:10:59.634-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:10:59.634-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:10:59.634-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:10:59.796-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:10:59.828-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:10:59.828-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:10:59.867-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:10:59.867-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:10:59.872-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.240 seconds
+[2025-05-07T00:11:30.590-0400] {processor.py:161} INFO - Started process (PID=92768) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:11:30.590-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:11:30.591-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:11:30.591-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:11:30.756-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:11:30.788-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:11:30.788-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:11:30.828-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:11:30.828-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:11:30.834-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.244 seconds
+[2025-05-07T00:12:01.617-0400] {processor.py:161} INFO - Started process (PID=92802) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:12:01.617-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:12:01.617-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:12:01.617-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:12:01.769-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:12:01.798-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:12:01.798-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:12:01.832-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:12:01.832-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:12:01.838-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.222 seconds
+[2025-05-07T00:12:32.724-0400] {processor.py:161} INFO - Started process (PID=92820) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:12:32.725-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:12:32.725-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:12:32.725-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:12:32.991-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:12:33.024-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:12:33.024-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:12:33.059-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:12:33.059-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:12:33.065-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.342 seconds
+[2025-05-07T00:13:03.772-0400] {processor.py:161} INFO - Started process (PID=92823) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:13:03.773-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:13:03.773-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:13:03.773-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:13:03.950-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:13:03.981-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:13:03.981-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:13:04.013-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:13:04.012-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:13:04.019-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.247 seconds
+[2025-05-07T00:13:34.751-0400] {processor.py:161} INFO - Started process (PID=92829) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:13:34.751-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:13:34.751-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:13:34.751-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:13:34.909-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:13:34.939-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:13:34.939-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:13:34.971-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:13:34.971-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:13:34.977-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.227 seconds
+[2025-05-07T00:14:05.684-0400] {processor.py:161} INFO - Started process (PID=92832) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:14:05.685-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:14:05.685-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:14:05.685-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:14:05.836-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:14:05.867-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:14:05.867-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:14:05.902-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:14:05.902-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:14:05.908-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.224 seconds
+[2025-05-07T00:14:36.622-0400] {processor.py:161} INFO - Started process (PID=92835) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:14:36.622-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:14:36.622-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:14:36.622-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:14:36.777-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:14:36.806-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:14:36.806-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:14:36.840-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:14:36.840-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:14:36.846-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.224 seconds
+[2025-05-07T00:15:07.546-0400] {processor.py:161} INFO - Started process (PID=92840) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:15:07.546-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:15:07.547-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:15:07.546-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:15:07.700-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:15:07.730-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:15:07.730-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:15:07.761-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:15:07.761-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:15:07.768-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.223 seconds
+[2025-05-07T00:15:38.539-0400] {processor.py:161} INFO - Started process (PID=92845) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:15:38.540-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:15:38.540-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:15:38.540-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:15:38.678-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:15:38.707-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:15:38.706-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:15:38.735-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:15:38.735-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:15:38.741-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.202 seconds
+[2025-05-07T00:16:09.420-0400] {processor.py:161} INFO - Started process (PID=92848) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:16:09.421-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:16:09.421-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:16:09.421-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:16:09.555-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:16:09.583-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:16:09.583-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:16:09.611-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:16:09.611-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:16:09.617-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.197 seconds
+[2025-05-07T00:16:40.276-0400] {processor.py:161} INFO - Started process (PID=92851) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:16:40.276-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:16:40.276-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:16:40.276-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:16:40.409-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:16:40.437-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:16:40.437-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:16:40.465-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:16:40.465-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:16:40.471-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.195 seconds
+[2025-05-07T00:17:11.124-0400] {processor.py:161} INFO - Started process (PID=92854) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:17:11.124-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:17:11.125-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:17:11.124-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:17:11.256-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:17:11.285-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:17:11.285-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:17:11.312-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:17:11.312-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:17:11.318-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.194 seconds
+[2025-05-07T00:17:41.966-0400] {processor.py:161} INFO - Started process (PID=92857) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:17:41.966-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:17:41.966-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:17:41.966-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:17:42.099-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:17:42.127-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:17:42.127-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:17:42.155-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:17:42.154-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:17:42.160-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.195 seconds
+[2025-05-07T00:18:12.818-0400] {processor.py:161} INFO - Started process (PID=92862) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:18:12.818-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:18:12.818-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:18:12.818-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:18:12.960-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:18:12.989-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:18:12.989-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:18:13.019-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:18:13.018-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:18:13.024-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.207 seconds
+[2025-05-07T00:18:43.731-0400] {processor.py:161} INFO - Started process (PID=92865) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:18:43.732-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:18:43.732-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:18:43.732-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:18:43.878-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:18:43.909-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:18:43.909-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:18:43.945-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:18:43.945-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:18:43.951-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.220 seconds
+[2025-05-07T00:19:14.674-0400] {processor.py:161} INFO - Started process (PID=92868) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:19:14.675-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:19:14.675-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:19:14.675-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:19:14.832-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:19:14.866-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:19:14.866-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:19:14.896-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:19:14.896-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:19:14.902-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.228 seconds
+[2025-05-07T00:19:45.592-0400] {processor.py:161} INFO - Started process (PID=92871) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:19:45.593-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:19:45.593-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:19:45.593-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:19:45.791-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:19:45.825-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:19:45.825-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:19:45.857-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:19:45.857-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:19:45.863-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.271 seconds
+[2025-05-07T00:20:16.679-0400] {processor.py:161} INFO - Started process (PID=92885) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:20:16.680-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:20:16.681-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:20:16.680-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:20:16.915-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:20:16.949-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:20:16.949-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:20:16.994-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:20:16.994-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:20:17.000-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.321 seconds
+[2025-05-07T00:20:47.735-0400] {processor.py:161} INFO - Started process (PID=92888) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:20:47.735-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:20:47.735-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:20:47.735-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:20:47.881-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:20:47.912-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:20:47.912-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:20:47.943-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:20:47.942-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:20:47.948-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.214 seconds
+[2025-05-07T00:21:18.665-0400] {processor.py:161} INFO - Started process (PID=92893) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:21:18.666-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:21:18.666-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:21:18.666-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:21:18.804-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:21:18.832-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:21:18.832-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:21:18.863-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:21:18.863-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:21:18.869-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.204 seconds
+[2025-05-07T00:21:49.556-0400] {processor.py:161} INFO - Started process (PID=92896) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:21:49.557-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:21:49.557-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:21:49.557-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:21:49.693-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:21:49.722-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:21:49.722-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:21:49.751-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:21:49.751-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:21:49.757-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.201 seconds
+[2025-05-07T00:22:20.459-0400] {processor.py:161} INFO - Started process (PID=92908) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:22:20.459-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:22:20.459-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:22:20.459-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:22:20.597-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:22:20.625-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:22:20.625-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:22:20.656-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:22:20.656-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:22:20.662-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.203 seconds
+[2025-05-07T00:22:51.429-0400] {processor.py:161} INFO - Started process (PID=92911) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:22:51.430-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:22:51.430-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:22:51.430-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:22:51.595-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:22:51.626-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:22:51.625-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:22:51.660-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:22:51.660-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:22:51.666-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.237 seconds
+[2025-05-07T00:23:22.374-0400] {processor.py:161} INFO - Started process (PID=92918) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:23:22.374-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:23:22.374-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:23:22.374-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:23:22.530-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:23:22.559-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:23:22.559-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:23:22.594-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:23:22.594-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:23:22.600-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.227 seconds
+[2025-05-07T00:23:53.309-0400] {processor.py:161} INFO - Started process (PID=92921) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:23:53.309-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:23:53.309-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:23:53.309-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:23:53.451-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:23:53.480-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:23:53.480-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:23:53.509-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:23:53.509-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:23:53.515-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.206 seconds
+[2025-05-07T00:24:24.207-0400] {processor.py:161} INFO - Started process (PID=92924) to work on /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:24:24.207-0400] {processor.py:830} INFO - Processing file /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py for tasks to queue
+[2025-05-07T00:24:24.207-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:24:24.207-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:24:24.356-0400] {processor.py:840} INFO - DAG(s) 'daily_batch_prediction' retrieved from /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py
+[2025-05-07T00:24:24.386-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:24:24.386-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-07T00:24:24.420-0400] {logging_mixin.py:188} INFO - [2025-05-07T00:24:24.419-0400] {dag.py:3823} INFO - Setting next_dagrun for daily_batch_prediction to 2025-05-07 00:00:00+00:00, run_after=2025-05-08 00:00:00+00:00
+[2025-05-07T00:24:24.426-0400] {processor.py:183} INFO - Processing /Users/asritabobba/Desktop/Mlops-project/MLOPs-Project/airflow/dags/batch_prediction.py took 0.219 seconds
