@@ -4,7 +4,7 @@ This folder contains Apache Airflow DAGs that automate **daily batch predictions
 
 ---
 
-## 🔧 DAG Overview
+## DAG Overview
 
 | DAG ID                  | Purpose                               | Schedule     |
 |-------------------------|----------------------------------------|--------------|
@@ -14,7 +14,7 @@ The DAG executes a Python task (`run_batch_prediction`) that reads a CSV of inpu
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Create Python 3.10 virtual environment
 
@@ -51,7 +51,7 @@ airflow users create \
 
 ---
 
-## ▶️ Running Airflow
+## Running Airflow
 
 ### Webserver
 
@@ -85,7 +85,7 @@ It writes:
 
 - `serving/batch_output.csv` (joined prediction output)
 
-If your team replaces the model later (with a `.pkl`), update the logic in `batch_prediction.py` to load and run the new model.
+If the model is ready and is replaced, then  the model (with a `.pkl` extension), update the logic in `batch_prediction.py` to load and run the new model.
 
 ---
 
@@ -106,10 +106,10 @@ If your team replaces the model later (with a `.pkl`), update the logic in `batc
 - Use absolute paths inside `batch_prediction.py` if file detection fails.
 - This DAG does not train or tune models — it only serves daily predictions in batch.
 - The current model is a dummy linear regressor; update it once Imani shares the trained `.pkl`.
-
+- For some reaon you have to for now copy files form the dummy_input in the main serving folder to the on in the airflow (I'll fix this as soon as i can find a solution)
 ---
 
-## ✅ Status (as of May 6, 2025)
+## Status (as of May 6, 2025)
 
 - ✅ DAG loads successfully in UI  
 - ✅ Batch predictions run and generate correct `batch_output.csv`  
@@ -117,7 +117,7 @@ If your team replaces the model later (with a `.pkl`), update the logic in `batc
 
 ---
 
-## 🔮 Future Plans
+## Future Plans
 
 - Connect DAG outputs to FastAPI logs or dashboards  
 - Schedule DAG via event triggers (e.g. file drop or webhook)
