@@ -1,0 +1,17 @@
+# Ignore data and model artifacts
+*.csv
+*.parquet
+*.log
+*.pt
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore Airflow logs and SQLite DB
+airflow/airflow.db
+airflow/logs/
+
+# Ignore VS Code settings (optional)
+.vscode/
