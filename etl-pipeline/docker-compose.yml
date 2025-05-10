@@ -22,33 +22,33 @@ services:
     working_dir: /data
     command: ["bash", "-c", "python process_taxi.py"]
 
-  # load-data:
-  #   image: rclone/rclone:latest
-  #   volumes:
-  #     - taxi_data:/data
-  #     - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
-  #   entrypoint: /bin/sh
-  #   command:
-  #     - -c
-  #     - |
-  #       if [ -z "$RCLONE_CONTAINER" ]; then
-  #         echo "ERROR: RCLONE_CONTAINER is not set"
-  #         exit 1
-  #       fi
+  load-data:
+    image: rclone/rclone:latest
+    volumes:
+      - taxi_data:/data
+      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+        if [ -z "$RCLONE_CONTAINER" ]; then
+          echo "ERROR: RCLONE_CONTAINER is not set"
+          exit 1
+        fi
 
-  #       echo "Cleaning up existing contents of container..."
-  #       rclone delete chi_tacc:$RCLONE_CONTAINER --rmdirs || true
+        echo "Cleaning up existing contents of container..."
+        rclone delete chi_tacc:$RCLONE_CONTAINER --rmdirs || true
 
-  #       echo "Copying data to object store..."
-  #       rclone copy /data chi_tacc:$RCLONE_CONTAINER \
-  #         --progress \
-  #         --transfers=32 \
-  #         --checkers=16 \
-  #         --multi-thread-streams=4 \
-  #         --fast-list
+        echo "Copying data to object store..."
+        rclone copy /data chi_tacc:$RCLONE_CONTAINER \
+          --progress \
+          --transfers=32 \
+          --checkers=16 \
+          --multi-thread-streams=4 \
+          --fast-list
 
-  #       echo "Listing directories in container after load stage:"
-  #       rclone lsd chi_tacc:$RCLONE_CONTAINER
+        echo "Listing directories in container after load stage:"
+        rclone lsd chi_tacc:$RCLONE_CONTAINER
 
   download-events-monthly:
     build: .
@@ -66,30 +66,30 @@ services:
     working_dir: /data
     command: ["bash", "-c", "python process_events.py"]
 
-  # load-events:
-  #   image: rclone/rclone:latest
-  #   volumes:
-  #     - event_data:/data
-  #     - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
-  #   entrypoint: /bin/sh
-  #   command:
-  #     - -c
-  #     - |
-  #       if [ -z "$RCLONE_CONTAINER" ]; then
-  #         echo "ERROR: RCLONE_CONTAINER is not set"
-  #         exit 1
-  #       fi
+  load-events:
+    image: rclone/rclone:latest
+    volumes:
+      - event_data:/data
+      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+        if [ -z "$RCLONE_CONTAINER" ]; then
+          echo "ERROR: RCLONE_CONTAINER is not set"
+          exit 1
+        fi
 
-  #       echo "Uploading processed_events_2024.csv to chi_tacc:$RCLONE_CONTAINER ..."
-  #       rclone copy /data/processed_events_2024.csv chi_tacc:$RCLONE_CONTAINER \
-  #         --progress \
-  #         --transfers=8 \
-  #         --checkers=8 \
-  #         --multi-thread-streams=4 \
-  #         --fast-list
+        echo "Uploading processed_events_2024.csv to chi_tacc:$RCLONE_CONTAINER ..."
+        rclone copy /data/processed_events_2024.csv chi_tacc:$RCLONE_CONTAINER \
+          --progress \
+          --transfers=8 \
+          --checkers=8 \
+          --multi-thread-streams=4 \
+          --fast-list
 
-  #       echo "Upload complete. Listing files in container:"
-  #       rclone ls chi_tacc:$RCLONE_CONTAINER
+        echo "Upload complete. Listing files in container:"
+        rclone ls chi_tacc:$RCLONE_CONTAINER
   
   extract-taxi-test:
     image: python:3.11
@@ -114,32 +114,3 @@ services:
       - taxi_data:/data/output
     working_dir: /data
     command: ["bash", "-c", "python split_datasets.py"]
-
-  upload-files:
-    image: rclone/rclone:latest
-    volumes:
-      - taxi_data:/data
-      - event_data:/data/events
-      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
-    entrypoint: /bin/sh
-    command:
-      - -c
-      - |
-        if [ -z "$RCLONE_CONTAINER" ] || [ -z "$RCLONE_SOURCE" ]; then
-          echo "ERROR: You must set both RCLONE_CONTAINER and RCLONE_SOURCE"
-          echo "Example: export RCLONE_CONTAINER=object-persist-project-21"
-          echo "         export RCLONE_SOURCE=/data/train.csv"
-          exit 1
-        fi
-
-        echo "Uploading from $RCLONE_SOURCE to chi_tacc:$RCLONE_CONTAINER ..."
-        rclone copy "$RCLONE_SOURCE" chi_tacc:$RCLONE_CONTAINER \
-          --progress \
-          --transfers=16 \
-          --checkers=8 \
-          --multi-thread-streams=4 \
-          --fast-list
-
-        echo "Upload complete. Files in container:"
-        rclone ls chi_tacc:$RCLONE_CONTAINER
-
