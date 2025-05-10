@@ -21,7 +21,7 @@ services:
     depends_on:
       - postgres
     environment:
-      MLFLOW_TRACKING_URI: http://0.0.0.0:8000
+      MLFLOW_TRACKING_URI: http://129.114.25.171:8000
     volumes:
       - ./mlruns:/mlruns  
     ports:
