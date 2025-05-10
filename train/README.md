@@ -1,16 +1,39 @@
-## Bringing up a Jupyter instance
 
-1. Create a VM compute instance using `main.ipynb`
-2. SSH into the instance
-3. Bring up container:
-```
-docker compose -f MLOPs-Project/train/docker-compose.yaml up -d
-```
-4. Get token and open Jupyter instance in browser
-5. Open the "work" directory
-6. Write code inside that directory
-7. Before you delete your instance, inside the VM host (inside SSH session, not inside the Jupyter notebook container)
+# Taxi Driver Event Time & Location Prediction — Model Training
 
- * `cd` to `MLOps-Project`
- * authenticate to Github
- * do `git add` on each file that needs to be pushed to Github, then `git commit` and `git push`
+This folder trains a random forest model to predict how many trips will be requested from a certain location within a 15 minute time frame. The model uses MLFlow to travk experiments. 
+
+---
+
+## Features
+
+- 
+
+---
+
+## How to run the model
+
+1. **Run the main.py notebook and ssh into the given session a local terminal**
+
+2. **Compose the Docker container:**
+   ```bash
+   docker compose -f MLOPs-Project/train/docker-compose.yaml up -d
+   ```
+
+3. **Find the token and subsitute the IP address with the floating IP:**
+   ```bash
+   http://127.0.0.1:8888/lab?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   ```
+
+## 🧾 File Overview
+
+| File                   | Purpose                                          |
+|------------------------|--------------------------------------------------|
+| `DockerFile`           | Sets the Docker configuration of dependencies    |
+| `docker-compose.yaml`   | Sets the scipy-notebook image                    |
+| `docker-compose.mlflow.yaml` | Sets MLFlow workflow with PostgreSQL and a Ray cluster   |
+| `train.ipnyb`            | trains the model and implements MLFlow         |
+
+
+
+
