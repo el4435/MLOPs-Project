@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/573ef8ba45c74624822627316bf97a74/artifacts
+end_time: 1746891096420
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 573ef8ba45c74624822627316bf97a74
+run_name: bustling-robin-844
+run_uuid: 573ef8ba45c74624822627316bf97a74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746890462741
+status: 3
+tags: []
+user_id: jovyan

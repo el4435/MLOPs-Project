@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/19a773254b784170ac614817401da9ee/artifacts
+end_time: 1746891615937
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 19a773254b784170ac614817401da9ee
+run_name: marvelous-roo-935
+run_uuid: 19a773254b784170ac614817401da9ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746891611608
+status: 3
+tags: []
+user_id: jovyan

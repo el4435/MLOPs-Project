@@ -1,0 +1,6 @@
+artifact_location: file:///home/jovyan/work/mlruns/435744745330404923
+creation_time: 1746891075908
+experiment_id: '435744745330404923'
+last_update_time: 1746891075908
+lifecycle_stage: active
+name: taxi_trip_prediction
