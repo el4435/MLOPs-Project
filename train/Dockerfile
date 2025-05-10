@@ -4,7 +4,7 @@ FROM quay.io/jupyter/scipy-notebook:latest
 USER ${NB_UID}
 
 
-RUN pip install --no-cache-dir pandas && \
+RUN pip install --no-cache-dir pandas mlflow && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
