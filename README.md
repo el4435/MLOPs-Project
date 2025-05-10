@@ -25,7 +25,7 @@ Contributors
 | Name         | Responsible for                                                  | Link to their commits in this repo |
 |--------------|------------------------------------------------------------------|------------------------------------|
 | All Members  | System design, integration, DevOps and CI/CD pipeline (Unit 3)   |                                    |
-| Imani Gomez  | Model training, experiment tracking (Units 4 & 5)                |                                    |
+| Imani Gomez  | Model training, experiment tracking (Units 4 & 5)                | https://github.com/el4435/MLOPs-Project/commits/main/?author=ImaniGomez |
 | Asrita Bobba | Model serving, system and model monitoring (Units 6 & 7)         |                                    |
 | Erxi Liu     | Data pipelines (Unit 8)       |                                  |
 
