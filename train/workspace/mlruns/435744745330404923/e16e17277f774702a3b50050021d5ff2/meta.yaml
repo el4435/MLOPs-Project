@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/e16e17277f774702a3b50050021d5ff2/artifacts
+end_time: 1746904483846
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: e16e17277f774702a3b50050021d5ff2
+run_name: enchanting-kit-813
+run_uuid: e16e17277f774702a3b50050021d5ff2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746904476004
+status: 3
+tags: []
+user_id: jovyan
