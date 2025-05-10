@@ -6,7 +6,7 @@ USER ${NB_UID}
 
 RUN pip install --no-cache-dir pandas && \
     pip install --pre --no-cache-dir mlflow && \
-    pip install --no-cache-dir ray[default] && \
+    pip install --no-cache-dir ray && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
