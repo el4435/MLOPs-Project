@@ -8,4 +8,4 @@ services:
     volumes:
       - /home/cc/MLOPs-Project/train/workspace:/home/jovyan/work # mount workspace
     #command: >
-    #  bash -c "python3 -m pip install numpy && start-notebook.sh"
+    #  bash -c "python3 -m pip install numpy mlflow && start-notebook.sh"
