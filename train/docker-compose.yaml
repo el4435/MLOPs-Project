@@ -7,5 +7,11 @@ services:
       - "8888:8888"
     volumes:
       - /home/cc/MLOPs-Project/train/workspace:/home/jovyan/work # mount workspace
+    environment:
+      - RAY_HEAD_ADDR=ray-head:6379  # Ensure Ray workers can find the head node
+    command: >
+      bash -c "pip install ray && start-notebook.sh"  # Install Ray and then start Jupyter notebook
+    depends_on:
+      - ray-head  # Make sure ray-head starts before jupyter
     #command: >
     #  bash -c "python3 -m pip install numpy mlflow && start-notebook.sh"
