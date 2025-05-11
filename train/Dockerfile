@@ -11,7 +11,9 @@ RUN pip install --no-cache-dir pandas
 RUN pip install --pre --no-cache-dir mlflow
 
 # Install Ray using conda
-RUN pip install --no-cache-dir ray==2.42.1
+RUN pip install --no-cache-dir ray==2.42.1 && \
+    fix-permissions "${CONDA_DIR}" && \
+    fix-permissions "/home/${NB_USER}"
 
 # Fix permissions
 RUN fix-permissions "${CONDA_DIR}"
