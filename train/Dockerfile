@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir pandas
 RUN pip install --pre --no-cache-dir mlflow
 
 # Install Ray using conda
-RUN conda install -y -c conda-forge ray
+RUN pip install -y -c conda-forge ray
 
 # Fix permissions
 RUN fix-permissions "${CONDA_DIR}"
