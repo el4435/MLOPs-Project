@@ -1,14 +1,21 @@
 FROM quay.io/jupyter/scipy-notebook:latest
 # Chose notebook from https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook
 
-USER root
 
+USER ${NB_UID}
 
-RUN pip install --no-cache-dir pandas && \
-    pip install --pre --no-cache-dir mlflow && \
-    pip install --no-cache-dir ray && \
-    fix-permissions "${CONDA_DIR}" && \
-    fix-permissions "/home/${NB_USER}"
+# Install pandas
+RUN pip install --no-cache-dir pandas
+
+# Install mlflow
+RUN pip install --pre --no-cache-dir mlflow
+
+# Install Ray using conda
+RUN conda install -y -c conda-forge ray
+
+# Fix permissions
+RUN fix-permissions "${CONDA_DIR}"
+RUN fix-permissions "/home/${NB_USER}"
 
 # install package XXXX - replace XXXX
 # RUN pip install --pre --no-cache-dir XXXX && \
@@ -17,4 +24,4 @@ RUN pip install --no-cache-dir pandas && \
 
 # based on lab example https://github.com/teaching-on-testbeds/mltrain-chi/blob/main/docker/Dockerfile.jupyter-ray
 
-USER ${NB_UID}
+
