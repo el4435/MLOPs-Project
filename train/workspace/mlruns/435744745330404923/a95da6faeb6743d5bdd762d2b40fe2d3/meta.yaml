@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/a95da6faeb6743d5bdd762d2b40fe2d3/artifacts
+end_time: 1746995426008
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: a95da6faeb6743d5bdd762d2b40fe2d3
+run_name: carefree-cub-58
+run_uuid: a95da6faeb6743d5bdd762d2b40fe2d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995421602
+status: 3
+tags: []
+user_id: jovyan

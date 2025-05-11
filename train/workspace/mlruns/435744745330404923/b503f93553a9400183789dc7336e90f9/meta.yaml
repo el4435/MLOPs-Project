@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/b503f93553a9400183789dc7336e90f9/artifacts
+end_time: 1746995154347
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: b503f93553a9400183789dc7336e90f9
+run_name: whimsical-foal-222
+run_uuid: b503f93553a9400183789dc7336e90f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995149641
+status: 3
+tags: []
+user_id: jovyan

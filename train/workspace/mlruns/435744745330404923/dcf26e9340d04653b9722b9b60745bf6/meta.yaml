@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/dcf26e9340d04653b9722b9b60745bf6/artifacts
+end_time: 1746994285613
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: dcf26e9340d04653b9722b9b60745bf6
+run_name: nimble-fawn-884
+run_uuid: dcf26e9340d04653b9722b9b60745bf6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994280450
+status: 3
+tags: []
+user_id: jovyan

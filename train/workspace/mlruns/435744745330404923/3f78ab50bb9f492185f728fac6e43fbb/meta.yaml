@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/3f78ab50bb9f492185f728fac6e43fbb/artifacts
+end_time: 1746994656345
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 3f78ab50bb9f492185f728fac6e43fbb
+run_name: luminous-skunk-914
+run_uuid: 3f78ab50bb9f492185f728fac6e43fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994651697
+status: 3
+tags: []
+user_id: jovyan

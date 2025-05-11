@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/b2d77cf28b8742529c3dd92f8d0b93e1/artifacts
+end_time: 1746994087141
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: b2d77cf28b8742529c3dd92f8d0b93e1
+run_name: sassy-fox-966
+run_uuid: b2d77cf28b8742529c3dd92f8d0b93e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994075277
+status: 3
+tags: []
+user_id: jovyan

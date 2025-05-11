@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/6b022cceee094991bdd01024e00cf24d/artifacts
+end_time: 1746995149630
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 6b022cceee094991bdd01024e00cf24d
+run_name: fun-donkey-124
+run_uuid: 6b022cceee094991bdd01024e00cf24d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995144435
+status: 3
+tags: []
+user_id: jovyan

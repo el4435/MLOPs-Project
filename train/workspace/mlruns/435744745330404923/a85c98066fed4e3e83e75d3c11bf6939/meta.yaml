@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/a85c98066fed4e3e83e75d3c11bf6939/artifacts
+end_time: 1746995538329
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: a85c98066fed4e3e83e75d3c11bf6939
+run_name: bemused-asp-791
+run_uuid: a85c98066fed4e3e83e75d3c11bf6939
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995533325
+status: 3
+tags: []
+user_id: jovyan

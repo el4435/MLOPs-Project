@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/2e2602fad3a84bdba49021c53c11d75b/artifacts
+end_time: 1746995446877
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 2e2602fad3a84bdba49021c53c11d75b
+run_name: vaunted-mare-60
+run_uuid: 2e2602fad3a84bdba49021c53c11d75b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995442114
+status: 3
+tags: []
+user_id: jovyan

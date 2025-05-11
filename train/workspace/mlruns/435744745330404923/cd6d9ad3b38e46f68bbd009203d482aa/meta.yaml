@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/cd6d9ad3b38e46f68bbd009203d482aa/artifacts
+end_time: 1746995479649
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: cd6d9ad3b38e46f68bbd009203d482aa
+run_name: mercurial-stag-396
+run_uuid: cd6d9ad3b38e46f68bbd009203d482aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995474616
+status: 3
+tags: []
+user_id: jovyan

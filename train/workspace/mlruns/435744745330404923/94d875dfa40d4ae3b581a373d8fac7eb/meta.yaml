@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/94d875dfa40d4ae3b581a373d8fac7eb/artifacts
+end_time: 1746994087165
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 94d875dfa40d4ae3b581a373d8fac7eb
+run_name: judicious-pug-458
+run_uuid: 94d875dfa40d4ae3b581a373d8fac7eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994075277
+status: 3
+tags: []
+user_id: jovyan

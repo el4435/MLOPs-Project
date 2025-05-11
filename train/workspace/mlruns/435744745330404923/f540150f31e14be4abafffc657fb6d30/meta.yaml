@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/f540150f31e14be4abafffc657fb6d30/artifacts
+end_time: 1746995257604
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: f540150f31e14be4abafffc657fb6d30
+run_name: powerful-bee-144
+run_uuid: f540150f31e14be4abafffc657fb6d30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995252492
+status: 3
+tags: []
+user_id: jovyan

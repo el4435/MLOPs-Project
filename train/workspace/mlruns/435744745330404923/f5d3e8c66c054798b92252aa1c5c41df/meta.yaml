@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/f5d3e8c66c054798b92252aa1c5c41df/artifacts
+end_time: 1746994962693
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: f5d3e8c66c054798b92252aa1c5c41df
+run_name: invincible-ray-658
+run_uuid: f5d3e8c66c054798b92252aa1c5c41df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994957915
+status: 3
+tags: []
+user_id: jovyan

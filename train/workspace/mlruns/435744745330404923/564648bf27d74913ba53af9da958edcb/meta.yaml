@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/564648bf27d74913ba53af9da958edcb/artifacts
+end_time: 1746995416917
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 564648bf27d74913ba53af9da958edcb
+run_name: efficient-toad-328
+run_uuid: 564648bf27d74913ba53af9da958edcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995411924
+status: 3
+tags: []
+user_id: jovyan

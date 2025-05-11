@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/ee63d5d4711e4a478431f5ef92ee488e/artifacts
+end_time: 1746994285604
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: ee63d5d4711e4a478431f5ef92ee488e
+run_name: mysterious-crow-702
+run_uuid: ee63d5d4711e4a478431f5ef92ee488e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994280446
+status: 3
+tags: []
+user_id: jovyan

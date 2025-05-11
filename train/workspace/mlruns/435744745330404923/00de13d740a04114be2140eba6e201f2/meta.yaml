@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/00de13d740a04114be2140eba6e201f2/artifacts
+end_time: 1746995451583
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 00de13d740a04114be2140eba6e201f2
+run_name: adaptable-doe-737
+run_uuid: 00de13d740a04114be2140eba6e201f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995446899
+status: 3
+tags: []
+user_id: jovyan

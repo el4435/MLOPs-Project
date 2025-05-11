@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/3fcf52effd2d49989d48350fa30374a7/artifacts
+end_time: 1746994962517
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 3fcf52effd2d49989d48350fa30374a7
+run_name: luminous-goose-697
+run_uuid: 3fcf52effd2d49989d48350fa30374a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994957736
+status: 3
+tags: []
+user_id: jovyan

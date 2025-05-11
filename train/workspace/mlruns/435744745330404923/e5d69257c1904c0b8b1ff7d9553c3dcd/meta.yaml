@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/e5d69257c1904c0b8b1ff7d9553c3dcd/artifacts
+end_time: 1746995421695
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: e5d69257c1904c0b8b1ff7d9553c3dcd
+run_name: amusing-newt-891
+run_uuid: e5d69257c1904c0b8b1ff7d9553c3dcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995416934
+status: 3
+tags: []
+user_id: jovyan

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/55cee7e1938c497b9ea69fed902371bd/artifacts
+end_time: 1746995489523
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 55cee7e1938c497b9ea69fed902371bd
+run_name: thundering-kite-331
+run_uuid: 55cee7e1938c497b9ea69fed902371bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995484874
+status: 3
+tags: []
+user_id: jovyan

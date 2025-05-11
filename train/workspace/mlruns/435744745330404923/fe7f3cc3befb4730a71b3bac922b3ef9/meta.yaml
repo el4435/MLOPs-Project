@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/fe7f3cc3befb4730a71b3bac922b3ef9/artifacts
+end_time: 1746995257604
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: fe7f3cc3befb4730a71b3bac922b3ef9
+run_name: sincere-bug-287
+run_uuid: fe7f3cc3befb4730a71b3bac922b3ef9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995252490
+status: 3
+tags: []
+user_id: jovyan

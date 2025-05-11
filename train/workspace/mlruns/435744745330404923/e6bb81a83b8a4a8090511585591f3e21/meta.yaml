@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/e6bb81a83b8a4a8090511585591f3e21/artifacts
+end_time: 1746995421581
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: e6bb81a83b8a4a8090511585591f3e21
+run_name: sneaky-mare-565
+run_uuid: e6bb81a83b8a4a8090511585591f3e21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995416933
+status: 3
+tags: []
+user_id: jovyan

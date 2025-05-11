@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/2f93cdc62759457f8ac8b597cdfd9391/artifacts
+end_time: 1746994967151
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 2f93cdc62759457f8ac8b597cdfd9391
+run_name: victorious-ram-296
+run_uuid: 2f93cdc62759457f8ac8b597cdfd9391
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994962528
+status: 3
+tags: []
+user_id: jovyan

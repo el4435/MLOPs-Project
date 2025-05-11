@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/ffee124f2487409faf3c91537fb7d10d/artifacts
+end_time: 1746995154074
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: ffee124f2487409faf3c91537fb7d10d
+run_name: awesome-goat-650
+run_uuid: ffee124f2487409faf3c91537fb7d10d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995149459
+status: 3
+tags: []
+user_id: jovyan

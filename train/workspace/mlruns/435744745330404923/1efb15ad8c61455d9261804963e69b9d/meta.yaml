@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/1efb15ad8c61455d9261804963e69b9d/artifacts
+end_time: 1746995262363
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 1efb15ad8c61455d9261804963e69b9d
+run_name: rumbling-rat-569
+run_uuid: 1efb15ad8c61455d9261804963e69b9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995257617
+status: 3
+tags: []
+user_id: jovyan

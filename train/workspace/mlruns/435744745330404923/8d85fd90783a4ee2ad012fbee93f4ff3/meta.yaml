@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/8d85fd90783a4ee2ad012fbee93f4ff3/artifacts
+end_time: 1746995267083
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 8d85fd90783a4ee2ad012fbee93f4ff3
+run_name: exultant-bass-212
+run_uuid: 8d85fd90783a4ee2ad012fbee93f4ff3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995262379
+status: 3
+tags: []
+user_id: jovyan

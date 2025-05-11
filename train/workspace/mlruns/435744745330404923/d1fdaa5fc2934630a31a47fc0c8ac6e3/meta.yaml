@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/d1fdaa5fc2934630a31a47fc0c8ac6e3/artifacts
+end_time: 1746994304411
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: d1fdaa5fc2934630a31a47fc0c8ac6e3
+run_name: luxuriant-cod-454
+run_uuid: d1fdaa5fc2934630a31a47fc0c8ac6e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994299685
+status: 3
+tags: []
+user_id: jovyan

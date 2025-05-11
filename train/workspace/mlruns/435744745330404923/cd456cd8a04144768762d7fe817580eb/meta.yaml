@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/cd456cd8a04144768762d7fe817580eb/artifacts
+end_time: 1746995543011
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: cd456cd8a04144768762d7fe817580eb
+run_name: glamorous-lark-178
+run_uuid: cd456cd8a04144768762d7fe817580eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995538348
+status: 3
+tags: []
+user_id: jovyan

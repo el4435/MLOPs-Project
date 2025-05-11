@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/45ed247745f843a9a6d54808d2343cff/artifacts
+end_time: 1746995446999
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 45ed247745f843a9a6d54808d2343cff
+run_name: powerful-yak-149
+run_uuid: 45ed247745f843a9a6d54808d2343cff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995442242
+status: 3
+tags: []
+user_id: jovyan

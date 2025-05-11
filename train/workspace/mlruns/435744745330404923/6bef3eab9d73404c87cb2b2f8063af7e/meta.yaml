@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/6bef3eab9d73404c87cb2b2f8063af7e/artifacts
+end_time: 1746995149447
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 6bef3eab9d73404c87cb2b2f8063af7e
+run_name: lyrical-doe-865
+run_uuid: 6bef3eab9d73404c87cb2b2f8063af7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995144442
+status: 3
+tags: []
+user_id: jovyan

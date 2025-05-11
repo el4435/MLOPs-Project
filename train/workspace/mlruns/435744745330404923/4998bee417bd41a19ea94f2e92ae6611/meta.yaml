@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/4998bee417bd41a19ea94f2e92ae6611/artifacts
+end_time: 1746994957725
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 4998bee417bd41a19ea94f2e92ae6611
+run_name: redolent-squid-559
+run_uuid: 4998bee417bd41a19ea94f2e92ae6611
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994952648
+status: 3
+tags: []
+user_id: jovyan

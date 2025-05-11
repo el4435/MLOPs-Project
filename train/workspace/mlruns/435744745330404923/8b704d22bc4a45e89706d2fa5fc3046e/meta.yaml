@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/8b704d22bc4a45e89706d2fa5fc3046e/artifacts
+end_time: 1746994161039
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 8b704d22bc4a45e89706d2fa5fc3046e
+run_name: funny-ant-220
+run_uuid: 8b704d22bc4a45e89706d2fa5fc3046e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746994155811
+status: 3
+tags: []
+user_id: jovyan

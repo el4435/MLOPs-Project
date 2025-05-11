@@ -1,0 +1,29 @@
+artifact_path: random_forest_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 526330
+model_uuid: 901242d9943148349c9ce90b623b7a7d
+prompts: null
+run_id: 46e5d21a03da48dfaddf233c77331aa3
+signature:
+  inputs: '[{"type": "float", "name": "has_event", "required": true}, {"type": "float",
+    "name": "hour", "required": true}, {"type": "float", "name": "day_of_week", "required":
+    true}, {"type": "float", "name": "is_weekend", "required": true}]'
+  outputs: '[{"type": "long", "name": "num_trips", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-11 20:32:08.728687'

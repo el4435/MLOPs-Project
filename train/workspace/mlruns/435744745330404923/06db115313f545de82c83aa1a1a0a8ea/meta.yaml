@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/06db115313f545de82c83aa1a1a0a8ea/artifacts
+end_time: 1746995158690
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 06db115313f545de82c83aa1a1a0a8ea
+run_name: clean-fish-514
+run_uuid: 06db115313f545de82c83aa1a1a0a8ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995154085
+status: 3
+tags: []
+user_id: jovyan

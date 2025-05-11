@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/721b38523867485896f51a9e577a251e/artifacts
+end_time: 1746995533338
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 721b38523867485896f51a9e577a251e
+run_name: bouncy-moose-469
+run_uuid: 721b38523867485896f51a9e577a251e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746995528546
+status: 3
+tags: []
+user_id: jovyan
