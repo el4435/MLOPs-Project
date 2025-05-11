@@ -10,7 +10,7 @@ services:
     environment:
       - RAY_HEAD_ADDR=ray-head:6379  # Ensure Ray workers can find the head node
     command: >
-      bash -c "pip install ray && start-notebook.sh"  # Install Ray and then start Jupyter notebook
+      bash -c "pip install ray mlflow && start-notebook.sh"  # Install Ray and then start Jupyter notebook
     depends_on:
       - ray-head  # Make sure ray-head starts before jupyter
     #command: >
