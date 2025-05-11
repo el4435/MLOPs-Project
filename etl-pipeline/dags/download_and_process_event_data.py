@@ -5,6 +5,7 @@ import os
 import urllib.request
 import urllib.parse
 import pandas as pd
+import subprocess
 
 default_args = {
     'owner': 'erxi',
@@ -93,6 +94,21 @@ def process_event_data():
     else:
         print("No valid event files found.")
 
+def upload_events_to_rclone():
+    src = "/mnt/data/events"
+    dest = "chi_tacc:object-persist-project-21/online/events"
+    try:
+        result = subprocess.run(
+            ["rclone", "copy", src, dest, "--progress"],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+        print("Upload output:\n", result.stdout)
+    except subprocess.CalledProcessError as e:
+        print("Upload failed:\n", e.stderr)
+        raise
+
 with DAG(
     dag_id="download_and_process_event_data",
     default_args=default_args,
@@ -111,5 +127,10 @@ with DAG(
         task_id="process_event_data",
         python_callable=process_event_data
     )
+    
+    task_upload_events = PythonOperator(
+        task_id="upload_event_data",
+        python_callable=upload_events_to_rclone
+    )
 
-    task_download_events >> task_process_events
+    task_download_events >> task_process_events >> task_upload_events
