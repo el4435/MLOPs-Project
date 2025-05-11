@@ -14,7 +14,7 @@ for month in months:
     dest = os.path.join(output_dir, file_name)
 
     if os.path.exists(dest):
-        print(f"[✓] Already exists: {file_name}")
+        print(f"Already exists: {file_name}")
         continue
 
     print(f"Downloading {file_name} ...")
