@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/43ea405e1fc8420dbaea147134bd8846/artifacts
+end_time: 1746931246198
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 43ea405e1fc8420dbaea147134bd8846
+run_name: dazzling-rook-492
+run_uuid: 43ea405e1fc8420dbaea147134bd8846
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746931241699
+status: 3
+tags: []
+user_id: jovyan

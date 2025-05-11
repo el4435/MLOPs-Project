@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/3320997f237049148968136a3e43f37b/artifacts
+end_time: 1746931221912
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 3320997f237049148968136a3e43f37b
+run_name: silent-grub-818
+run_uuid: 3320997f237049148968136a3e43f37b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746931212974
+status: 3
+tags: []
+user_id: jovyan
