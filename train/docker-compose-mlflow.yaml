@@ -39,11 +39,12 @@ services:
     container_name: ray-head
     command: |
       /bin/sh -c "
+      pip install ray &&
       mkdir -p /tmp/ray && 
       chown -R root:root /tmp/ray &&
       ray metrics launch-prometheus &&
       ray start --head --port=6379 --dashboard-host=0.0.0.0 --block --metrics-export-port=8080"
-    ports:
+  ports:
       - "6379:6379" 
       - "8265:8265" 
       - "8080:8080" 
