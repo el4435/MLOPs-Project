@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, Query
 from pydantic import BaseModel
 from app.model_utils import load_model
 from datetime import datetime
@@ -10,7 +10,7 @@ app = FastAPI()
 session = load_model()
 
 # Ensure log files exist
-os.makedirs("app", exist_ok=True)  # in case not present
+os.makedirs("app", exist_ok=True)
 
 if not os.path.exists("app/request_logs.csv"):
     with open("app/request_logs.csv", "w") as f:
@@ -51,7 +51,12 @@ def batch_predict():
         return {"error": str(e)}
 
 @app.post("/feedback/")
-def feedback(hour: int, zone: str, predicted: float, actual: float):
+def feedback(
+    hour: int = Query(...),
+    zone: str = Query(...),
+    predicted: float = Query(...),
+    actual: float = Query(...)
+):
     with open("app/feedback.csv", "a") as f:
         f.write(f"{datetime.now()},{hour},{zone},{predicted},{actual}\n")
     return {"status": "feedback recorded"}
