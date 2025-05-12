@@ -70,7 +70,7 @@ Detailed Design Plan
 
 Model Training & Infrastructure (Imani – Units 4 & 5)
 -----------------------------------------------------
-- Strategy: Train demand prediction models using time-series and spatial data (LSTM + XGBoost)
+- Strategy: Train demand prediction models using time-series and spatial data
 - Infrastructure: Use Ray to run model selection and tuning jobs
 - Experiment Tracking: MLflow logs all experiments, including event types, features, and metrics
 - Unit 4 Compliance: Automated retraining pipeline on updated trip and event data
