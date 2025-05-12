@@ -7,7 +7,10 @@ This folder trains a random forest model to predict how many trips will be reque
 
 ## Features
 
-- 
+- Predicts taxi trip counts per location per 15-minute interval
+- Uses `RandomForestRegressor` from scikit-learn
+- Distributed hyperparameter tuning using Ray
+- Tracks experiments using MLFlow (metrics, models, parameters)
 
 ---
 
