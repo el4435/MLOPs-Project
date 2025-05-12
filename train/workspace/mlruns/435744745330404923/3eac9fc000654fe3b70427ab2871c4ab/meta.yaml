@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/435744745330404923/3eac9fc000654fe3b70427ab2871c4ab/artifacts
+end_time: 1747009089785
+entry_point_name: ''
+experiment_id: '435744745330404923'
+lifecycle_stage: active
+run_id: 3eac9fc000654fe3b70427ab2871c4ab
+run_name: resilient-jay-604
+run_uuid: 3eac9fc000654fe3b70427ab2871c4ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747009079624
+status: 3
+tags: []
+user_id: jovyan
