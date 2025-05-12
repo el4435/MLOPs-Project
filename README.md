@@ -26,8 +26,8 @@ Contributors
 |--------------|------------------------------------------------------------------|------------------------------------|
 | All Members  | System design, integration, DevOps and CI/CD pipeline (Unit 3)   |                                    |
 | Imani Gomez  | Model training, experiment tracking (Units 4 & 5)                | https://github.com/el4435/MLOPs-Project/commits/main/?author=ImaniGomez |
-| Asrita Bobba | Model serving, system and model monitoring (Units 6 & 7)         |                                    |
-| Erxi Liu     | Data pipelines (Unit 8)       |                                  |
+| Asrita Bobba | Model serving, system and model monitoring (Units 6 & 7)         | https://github.com/el4435/MLOPs-Project/commits/main/?author=asrita14      |
+| Erxi Liu     | Data pipelines (Unit 8)       |                                  |https://github.com/el4435/MLOPs-Project/commits/main/?author=el4435 |
 
 System Diagram
 --------------
@@ -71,7 +71,7 @@ Detailed Design Plan
 Model Training & Infrastructure (Imani – Units 4 & 5)
 -----------------------------------------------------
 - Strategy: Train demand prediction models using time-series and spatial data (LSTM + XGBoost)
-- Infrastructure: Use Ray on A100s to run model selection and tuning jobs
+- Infrastructure: Use Ray to run model selection and tuning jobs
 - Experiment Tracking: MLflow logs all experiments, including event types, features, and metrics
 - Unit 4 Compliance: Automated retraining pipeline on updated trip and event data
 - Unit 5 Compliance: Scheduled Ray jobs for incremental learning and version tracking
