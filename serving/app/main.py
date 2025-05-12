@@ -1,53 +1,57 @@
-'''from fastapi import FastAPI
-from pydantic import BaseModel
-
-app = FastAPI()
-
-class Input(BaseModel):
-    value: float
-
-@app.post("/predict")
-def predict(data: Input):
-    return {"prediction": data.value * 2}
-'''
-'''from fastapi import FastAPI
-from app.schemas import Input
-
-from app.model_utils import load_model
-import numpy as np
-
-app = FastAPI()
-
-# Load the model at startup
-model = load_model()
-
-
-@app.post("/predict")
-def predict(data: Input):
-    X = np.array(data.features).reshape(1, -1)
-    prediction = model.predict(X)
-    return {"prediction": prediction.tolist()}'''
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, File
 from pydantic import BaseModel
 from app.model_utils import load_model
-import numpy as np
+from datetime import datetime
 import pandas as pd
-PREDICTIONS = pd.read_csv("daily_predictions.csv")
+import numpy as np
+import os
 
 app = FastAPI()
-model = load_model()
+session = load_model()
+
+# Ensure log files exist
+os.makedirs("app", exist_ok=True)  # in case not present
+
+if not os.path.exists("app/request_logs.csv"):
+    with open("app/request_logs.csv", "w") as f:
+        f.write("timestamp,input,prediction\n")
+
+if not os.path.exists("app/feedback.csv"):
+    with open("app/feedback.csv", "w") as f:
+        f.write("timestamp,hour,zone,predicted,actual\n")
 
 class Input(BaseModel):
-    features: list  # e.g., [3, 4]
+    features: list
 
-@app.post("/predict")
+@app.post("/predict/")
 def predict(data: Input):
     try:
-        print(f"Received input: {data.features}")
-        X = np.array(data.features).reshape(1, -1)
-        prediction = model.predict(X)
-        print(f"Prediction result: {prediction}")
-        return {"prediction": prediction.tolist()}
+        X = np.array(data.features, dtype=np.float32).reshape(1, -1)
+        input_name = session.get_inputs()[0].name
+        prediction = session.run(None, {input_name: X})[0].tolist()
+
+        with open("app/request_logs.csv", "a") as f:
+            f.write(f"{datetime.now()},{data.features},{prediction}\n")
+
+        return {"prediction": prediction}
     except Exception as e:
-        print(f"Prediction error: {str(e)}")
         return {"error": str(e)}
+
+@app.post("/batch_predict/")
+def batch_predict():
+    try:
+        df = pd.read_csv("app/dummy_input.csv")
+        X = df.values.astype(np.float32)
+        input_name = session.get_inputs()[0].name
+        predictions = session.run(None, {input_name: X})[0]
+
+        pd.DataFrame(predictions, columns=["prediction"]).to_csv("app/batch_output.csv", index=False)
+        return {"status": "batch prediction completed", "rows": len(predictions)}
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.post("/feedback/")
+def feedback(hour: int, zone: str, predicted: float, actual: float):
+    with open("app/feedback.csv", "a") as f:
+        f.write(f"{datetime.now()},{hour},{zone},{predicted},{actual}\n")
+    return {"status": "feedback recorded"}
