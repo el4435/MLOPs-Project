@@ -5,7 +5,7 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 import os
-
+from prometheus_fastapi_instrumentator import Instrumentator
 app = FastAPI()
 session = load_model()
 
@@ -60,3 +60,10 @@ def feedback(
     with open("app/feedback.csv", "a") as f:
         f.write(f"{datetime.now()},{hour},{zone},{predicted},{actual}\n")
     return {"status": "feedback recorded"}
+
+
+from prometheus_fastapi_instrumentator import Instrumentator
+
+instrumentator = Instrumentator()
+instrumentator.instrument(app).expose(app)
+
