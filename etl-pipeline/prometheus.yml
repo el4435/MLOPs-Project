@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "process_taxi_etl"
+    static_configs:
+      - targets: ["process-taxi:9200"]

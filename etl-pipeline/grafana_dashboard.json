@@ -1,0 +1,51 @@
+{
+  "title": "ETL Metrics Dashboard",
+  "timezone": "browser",
+  "refresh": "10s",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "ETL Duration (seconds)",
+      "gridPos": { "x": 0, "y": 0, "w": 6, "h": 5 },
+      "targets": [
+        {
+          "expr": "etl_duration_seconds",
+          "refId": "A"
+        }
+      ],
+      "datasource": "Prometheus",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "decimals": 2
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Rows Processed",
+      "gridPos": { "x": 6, "y": 0, "w": 6, "h": 5 },
+      "targets": [
+        {
+          "expr": "taxi_rows_processed_total",
+          "refId": "A"
+        }
+      ],
+      "datasource": "Prometheus"
+    },
+    {
+      "type": "stat",
+      "title": "Files Skipped",
+      "gridPos": { "x": 0, "y": 5, "w": 6, "h": 5 },
+      "targets": [
+        {
+          "expr": "taxi_files_skipped_total",
+          "refId": "A"
+        }
+      ],
+      "datasource": "Prometheus"
+    }
+  ],
+  "schemaVersion": 38,
+  "version": 1
+}
