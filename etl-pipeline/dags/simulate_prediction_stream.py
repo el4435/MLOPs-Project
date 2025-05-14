@@ -24,23 +24,17 @@ def simulate_and_predict():
 
     with open(LOG_PATH, "a", newline="") as csvfile:
         writer = csv.writer(csvfile)
+        # Write header only if file is empty
         if os.stat(LOG_PATH).st_size == 0:
-            writer.writerow(["timestamp", "zone", "hour", "prediction"])
+            writer.writerow(["timestamp", "zone"])
 
         for _ in range(10):
             now = datetime.now()
             pickup_time = now + timedelta(minutes=random.randint(0, 60))
             pickup_zone = random.choice(ZONES)
-            hour = pickup_time.hour
-            features = [hour, pickup_zone]
 
-            try:
-                response = requests.post(ENDPOINT, json={"features": features})
-                result = response.json().get("prediction", [None])[0]
-                print(f"[{pickup_time}] zone {pickup_zone} → prediction: {result}")
-                writer.writerow([pickup_time.isoformat(), pickup_zone, hour, result])
-            except Exception as e:
-                print("Request failed:", e)
+            print(f"[{pickup_time}] Simulated pickup at zone {pickup_zone}")
+            writer.writerow([pickup_time.isoformat(), pickup_zone])
 
 def upload_prediction_log():
     try:
